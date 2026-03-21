@@ -1,0 +1,271 @@
+SCC_BACKEND_SHADER_FLAGS_BEGIN__
+SCC_BACKEND_SHADER_FLAGS_END__
+//SG_REFLECTION_BEGIN(200)
+//attribute vec4 boneData 5
+//attribute vec3 blendShape0Pos 6
+//attribute vec3 blendShape0Normal 12
+//attribute vec3 blendShape1Pos 7
+//attribute vec3 blendShape1Normal 13
+//attribute vec3 blendShape2Pos 8
+//attribute vec3 blendShape2Normal 14
+//attribute vec3 blendShape3Pos 9
+//attribute vec3 blendShape4Pos 10
+//attribute vec3 blendShape5Pos 11
+//attribute vec4 position 0
+//attribute vec3 normal 1
+//attribute vec4 tangent 2
+//attribute vec2 texture0 3
+//attribute vec2 texture1 4
+//attribute vec4 color 18
+//attribute vec3 positionNext 15
+//attribute vec3 positionPrevious 16
+//attribute vec4 strandProperties 17
+//output vec4 FragColor0 0
+//output vec4 FragColor1 1
+//output vec4 FragColor2 2
+//output vec4 FragColor3 3
+//sampler sampler intensityTextureSmpSC 0:18
+//sampler sampler sc_ScreenTextureSmpSC 0:23
+//texture texture2D intensityTexture 0:1:0:18
+//texture texture2D sc_ScreenTexture 0:13:0:23
+//ubo float sc_BonesUBO 0:0:96 {
+//sc_Bone_t sc_Bones 0:[1]:96
+//float4 sc_Bones.boneMatrix 0:[3]:16
+//float4 sc_Bones.normalMatrix 48:[3]:16
+//}
+//ubo int UserUniforms 0:28:6096 {
+//float4 sc_Time 1376
+//float4 sc_UniformConstants 1392
+//float4x4 sc_ViewProjectionMatrixArray 1680:[2]:64
+//float4x4 sc_ModelViewMatrixArray 1936:[2]:64
+//float4x4 sc_ProjectionMatrixArray 2384:[2]:64
+//float4x4 sc_ProjectionMatrixInverseArray 2512:[2]:64
+//float4x4 sc_ViewMatrixArray 2640:[2]:64
+//float4x4 sc_PrevFrameViewProjectionMatrixArray 2896:[2]:64
+//float4x4 sc_ModelMatrix 3024
+//float4x4 sc_ModelMatrixInverse 3088
+//float3x3 sc_NormalMatrix 3152
+//float4x4 sc_PrevFrameModelMatrix 3248
+//float4 sc_CurrentRenderTargetDims 3456
+//sc_Camera_t sc_Camera 3472
+//float3 sc_Camera.position 0
+//float sc_Camera.aspect 16
+//float2 sc_Camera.clipPlanes 24
+//float sc_ShadowDensity 3504
+//float4 sc_ShadowColor 3520
+//float4x4 sc_ProjectorMatrix 3536
+//float4 weights0 3616
+//float4 weights1 3632
+//float4 sc_StereoClipPlanes 3664:[2]:16
+//float2 sc_TAAJitterOffset 3704
+//float4 voxelization_params_0 3824
+//float4 voxelization_params_frustum_lrbt 3840
+//float4 voxelization_params_frustum_nf 3856
+//float3 voxelization_params_camera_pos 3872
+//float4x4 sc_ModelMatrixVoxelization 3888
+//float correctedIntensity 3952
+//float3x3 intensityTextureTransform 4016
+//float4 intensityTextureUvMinMax 4064
+//float4 intensityTextureBorderColor 4080
+//int PreviewEnabled 4244
+//float alphaTestThreshold 4252
+//float shapeAlpha 4272
+//float shapeWidthX 4276
+//bool xRightPin 4280
+//bool xLeftPin 4288
+//float xOffset 4292
+//float shapeHeightY 4296
+//bool yUpPin 4300
+//bool yDownPin 4304
+//float yOffset 4308
+//float shapeRotation 4320
+//float shapeRoundness 4328
+//float4 baseColor 4352
+//float Port_RangeMinA_N136 4864
+//float Port_RangeMaxA_N136 4868
+//float Port_RangeMinB_N136 4872
+//float Port_RangeMaxB_N136 4876
+//float4 Port_Value0_N154 4896
+//float2 Port_Input2_N148 4944
+//float Port_RangeMinA_N268 4956
+//float Port_RangeMaxA_N268 4960
+//float Port_Value0_N287 4968
+//float Port_Value_N288 4976
+//float Port_Default_N287 5004
+//float Port_Value0_N281 5012
+//float Port_Default_N281 5036
+//float Port_Value0_N282 5044
+//float Port_Value1_N282 5048
+//float Port_Default_N282 5052
+//float Port_Value0_N308 5056
+//float Port_RangeMinA_N277 5092
+//float Port_RangeMaxA_N277 5096
+//float Port_Value0_N289 5104
+//float Port_Default_N289 5128
+//float Port_Value0_N286 5136
+//float Port_Default_N286 5160
+//float Port_Value0_N293 5168
+//float Port_Value1_N293 5172
+//float Port_Default_N293 5176
+//float Port_Value0_N301 5180
+//float Port_Value0_N132 5212
+//float2 Port_Center_N092 5224
+//float Port_Value1_N097 5232
+//float Port_Value0_N131 5236
+//float Port_Input1_N160 5244
+//float Port_Input1_N263 5248
+//float2 Port_Center_N094 5256
+//float2 Port_Center_N100 5264
+//float Port_Value0_N125 5272
+//float Port_RangeMinA_N138 5280
+//float Port_RangeMaxA_N138 5284
+//float Port_RangeMinB_N138 5288
+//float Port_RangeMaxB_N138 5292
+//float2 Port_Center_N137 5296
+//float Port_Input1_N003 5304
+//float Port_Input1_N006 5308
+//float Port_RangeMinA_N018 5312
+//float Port_RangeMaxA_N018 5316
+//float Port_RangeMinB_N018 5320
+//float Port_Value0_N122 5324
+//float Port_Input1_N056 5332
+//float Port_RangeMinA_N022 5336
+//float Port_RangeMaxA_N022 5340
+//float Port_RangeMinB_N022 5344
+//float Port_Input1_N012 5348
+//float2 Port_Input1_N031 5352
+//float Port_RangeMinA_N135 5360
+//float Port_RangeMaxA_N135 5364
+//float Port_Input1_N127 5368
+//float Port_RangeMaxB_N135 5372
+//float Port_Input1_N017 5376
+//float Port_Input2_N017 5380
+//float Port_Input1_N264 5384
+//float Port_Input2_N264 5388
+//float Port_RangeMinA_N019 5392
+//float Port_RangeMaxA_N019 5396
+//float Port_RangeMaxB_N019 5400
+//float Port_RangeMinA_N042 5404
+//float Port_RangeMaxA_N042 5408
+//float Port_RangeMaxB_N042 5412
+//float Port_RangeMinA_N047 5416
+//float Port_RangeMaxA_N047 5420
+//float Port_RangeMinA_N101 5424
+//float Port_RangeMaxA_N101 5428
+//float Port_RangeMinB_N101 5432
+//float Port_RangeMinA_N057 5436
+//float Port_RangeMaxA_N057 5440
+//float Port_RangeMinB_N057 5444
+//float Port_RangeMaxB_N057 5448
+//float Port_RangeMaxB_N047 5452
+//float Port_Input1_N026 5456
+//float2 Port_Input1_N035 5464
+//float Port_RangeMinA_N133 5472
+//float Port_RangeMaxA_N133 5476
+//float Port_RangeMaxB_N133 5480
+//float Port_Input1_N015 5484
+//float Port_Input2_N015 5488
+//float Port_Input1_N043 5492
+//float Port_Input2_N043 5496
+//float Port_Value0_N064 5500
+//float Port_Input1_N052 5508
+//float Port_Input2_N052 5512
+//float Port_Value0_N123 5516
+//float Port_Input1_N259 5524
+//float2 Port_Center_N113 5528
+//float Port_Input1_N089 5536
+//float Port_Input1_N090 5540
+//float Port_Input1_N103 5544
+//float2 Port_Input1_N105 5552
+//float Port_Input1_N112 5560
+//float Port_Input2_N112 5564
+//float Port_Input1_N265 5792
+//float Port_Input2_N265 5796
+//float Port_Input1_N077 5800
+//float2 Port_Input1_N079 5808
+//float Port_Input1_N098 5816
+//float Port_Input2_N098 5820
+//float Port_Input1_N116 5824
+//float Port_Input2_N116 5828
+//float Port_RangeMinA_N143 5832
+//float Port_RangeMaxA_N143 5836
+//float4 Port_Value0_N140 5840
+//}
+//spec_const bool BLEND_MODE_AVERAGE 0 0
+//spec_const bool BLEND_MODE_BRIGHT 1 0
+//spec_const bool BLEND_MODE_COLOR_BURN 2 0
+//spec_const bool BLEND_MODE_COLOR_DODGE 3 0
+//spec_const bool BLEND_MODE_COLOR 4 0
+//spec_const bool BLEND_MODE_DARKEN 5 0
+//spec_const bool BLEND_MODE_DIFFERENCE 6 0
+//spec_const bool BLEND_MODE_DIVIDE 7 0
+//spec_const bool BLEND_MODE_DIVISION 8 0
+//spec_const bool BLEND_MODE_EXCLUSION 9 0
+//spec_const bool BLEND_MODE_FORGRAY 10 0
+//spec_const bool BLEND_MODE_HARD_GLOW 11 0
+//spec_const bool BLEND_MODE_HARD_LIGHT 12 0
+//spec_const bool BLEND_MODE_HARD_MIX 13 0
+//spec_const bool BLEND_MODE_HARD_PHOENIX 14 0
+//spec_const bool BLEND_MODE_HARD_REFLECT 15 0
+//spec_const bool BLEND_MODE_HUE 16 0
+//spec_const bool BLEND_MODE_INTENSE 17 0
+//spec_const bool BLEND_MODE_LIGHTEN 18 0
+//spec_const bool BLEND_MODE_LINEAR_LIGHT 19 0
+//spec_const bool BLEND_MODE_LUMINOSITY 20 0
+//spec_const bool BLEND_MODE_NEGATION 21 0
+//spec_const bool BLEND_MODE_NOTBRIGHT 22 0
+//spec_const bool BLEND_MODE_OVERLAY 23 0
+//spec_const bool BLEND_MODE_PIN_LIGHT 24 0
+//spec_const bool BLEND_MODE_REALISTIC 25 0
+//spec_const bool BLEND_MODE_SATURATION 26 0
+//spec_const bool BLEND_MODE_SOFT_LIGHT 27 0
+//spec_const bool BLEND_MODE_SUBTRACT 28 0
+//spec_const bool BLEND_MODE_VIVID_LIGHT 29 0
+//spec_const bool ENABLE_STIPPLE_PATTERN_TEST 30 0
+//spec_const bool SC_USE_CLAMP_TO_BORDER_intensityTexture 31 0
+//spec_const bool SC_USE_UV_MIN_MAX_intensityTexture 32 0
+//spec_const bool SC_USE_UV_TRANSFORM_intensityTexture 33 0
+//spec_const bool UseViewSpaceDepthVariant 34 1
+//spec_const bool intensityTextureHasSwappedViews 35 0
+//spec_const bool sc_BlendMode_AddWithAlphaFactor 36 0
+//spec_const bool sc_BlendMode_Add 37 0
+//spec_const bool sc_BlendMode_AlphaTest 38 0
+//spec_const bool sc_BlendMode_AlphaToCoverage 39 0
+//spec_const bool sc_BlendMode_ColoredGlass 40 0
+//spec_const bool sc_BlendMode_Custom 41 0
+//spec_const bool sc_BlendMode_Max 42 0
+//spec_const bool sc_BlendMode_Min 43 0
+//spec_const bool sc_BlendMode_MultiplyOriginal 44 0
+//spec_const bool sc_BlendMode_Multiply 45 0
+//spec_const bool sc_BlendMode_Normal 46 0
+//spec_const bool sc_BlendMode_PremultipliedAlphaAuto 47 0
+//spec_const bool sc_BlendMode_PremultipliedAlphaHardware 48 0
+//spec_const bool sc_BlendMode_PremultipliedAlpha 49 0
+//spec_const bool sc_BlendMode_Screen 50 0
+//spec_const bool sc_DepthOnly 51 0
+//spec_const bool sc_FramebufferFetch 52 0
+//spec_const bool sc_MotionVectorsPass 53 0
+//spec_const bool sc_OITCompositingPass 54 0
+//spec_const bool sc_OITDepthBoundsPass 55 0
+//spec_const bool sc_OITDepthGatherPass 56 0
+//spec_const bool sc_OutputBounds 57 0
+//spec_const bool sc_ProjectiveShadowsCaster 58 0
+//spec_const bool sc_ProjectiveShadowsReceiver 59 0
+//spec_const bool sc_RenderAlphaToColor 60 0
+//spec_const bool sc_ScreenTextureHasSwappedViews 61 0
+//spec_const bool sc_TAAEnabled 62 0
+//spec_const bool sc_VertexBlendingUseNormals 63 0
+//spec_const bool sc_VertexBlending 64 0
+//spec_const bool sc_Voxelization 65 0
+//spec_const bool shapeColorInvert 66 0
+//spec_const int SC_SOFTWARE_WRAP_MODE_U_intensityTexture 67 -1
+//spec_const int SC_SOFTWARE_WRAP_MODE_V_intensityTexture 68 -1
+//spec_const int intensityTextureLayout 69 0
+//spec_const int sc_DepthBufferMode 70 0
+//spec_const int sc_RenderingSpace 71 -1
+//spec_const int sc_ScreenTextureLayout 72 0
+//spec_const int sc_ShaderCacheConstant 73 0
+//spec_const int sc_SkinBonesCount 74 0
+//spec_const int sc_StereoRenderingMode 75 0
+//spec_const int sc_StereoRendering_IsClipDistanceEnabled 76 0
+//SG_REFLECTION_END

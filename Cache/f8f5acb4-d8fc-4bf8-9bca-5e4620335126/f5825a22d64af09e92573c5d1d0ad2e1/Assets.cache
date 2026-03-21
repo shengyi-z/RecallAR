@@ -1,0 +1,53 @@
+- !<AssetCache>
+  AssetFiles:
+    2bd9cf5c-0f5d-4476-9f2d-f5afb792c3ee: f8f5acb4-d8fc-4bf8-9bca-5e4620335126/f5825a22d64af09e92573c5d1d0ad2e1/Data/house_detection.dnn
+  Assets:
+    - !<FileMLAsset/2bd9cf5c-0f5d-4476-9f2d-f5afb792c3ee>
+      PackagePath: ""
+      Inputs:
+        - !<MLInput>
+          Name: data
+          Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          Transformer:
+            stretch: true
+            alignment.horizontal: Center
+            alignment.vertical: Center
+            fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+            flipX: false
+            flipY: false
+            rotation: None
+          Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      Outputs:
+        - !<MLOutput>
+          Name: loc
+          Shape: {x: 16.000000, y: 32.000000, z: 4.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+        - !<MLOutput>
+          Name: cls
+          Shape: {x: 16.000000, y: 32.000000, z: 1.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SourceHash: f5825a22d64af09e92573c5d1d0ad2e1
+  FileHash: 553dd4d3be72a5d7c8aba5abe666e8fd
+  NativePackageItems:
+    []

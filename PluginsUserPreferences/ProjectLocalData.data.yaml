@@ -1,0 +1,5 @@
+data:
+  externalSources:
+    - 846d7ffc-87c9-4739-bca2-ce760e9ddad9: /private/var/folders/hd/vtl4mh1j7232374h0m4xd2xr0000gn/T/LensStudio_cSjTXn/LensController.js
+    - e044bc2f-edf3-4b00-8e49-10834b435b3d: /private/var/folders/hd/vtl4mh1j7232374h0m4xd2xr0000gn/T/LensStudio_VdyEJU/CanvasAPI_5.14.lsc
+    - f8f5acb4-d8fc-4bf8-9bca-5e4620335126: /Users/shengyizhong/Downloads/house_detection/house_detection.onnx

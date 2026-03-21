@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/c1fbd1ed-2bb2-46b6-94d8-fe98be996fc7>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: <?xml version="1.0" encoding="UTF-8"?><svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126.41 126.41"><defs><style>.cls-1,.cls-2,.cls-3{stroke-width:0px;}.cls-1,.cls-4{fill:none;}.cls-2{fill:#000;}.cls-4{stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:7px;}.cls-3{fill:#fff;}</style></defs><g id="Layer_1-2"><rect class="cls-3" x="8.55" y="8.55" width="109.31" height="109.31" rx="39.34" ry="39.34"/><path class="cls-2" d="M58.14,80.44c.88,7.56-5.22,12.07-12.1,15.4-5.66,2.73-11.99,3.14-16.5,2.96-2.55-.1-4.05-2.9-2.71-5.08,1.53-2.5,3.14-5.94,3.73-9.98,1.11-7.63,4.51-14.62,12.22-15.5s14.5,4.69,15.37,12.19Z"/><path class="cls-2" d="M95.34,27.13l.15.13c.87.79,1.5,1.75,1.9,2.77.95,2.45.56,5.33-1.25,7.47l-29.1,36.61c-1.12,1.32-2.89,1.74-4.42,1.21-.08-.24-.16-.47-.25-.71h0c-2.04-5.26-6.6-9.11-12.01-10.33-.11-.18-.2-.37-.28-.56-.56-1.44-.27-3.15.9-4.32l34.1-32.03c2.8-2.82,7.33-2.93,10.26-.25Z"/><path class="cls-4" d="M65.74,25.66h-16.29c-12.87,0-23.38,10.26-23.7,23.12l-.43,17.45"/><path class="cls-4" d="M60.34,101.24h16.29c12.87,0,23.38-10.26,23.7-23.12l.43-17.45"/><rect class="cls-1" width="126.41" height="126.41"/></g></svg>
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 3
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: e50b1ecf-8b40-4fc5-a702-05bdb268a6e5
+  ComponentUid: fbb790fc-68b4-48e0-ac47-57cf538a226a
+  PackagePolicy: CanBeUnpacked
+  ReadMe: !<reference> 2e32353a-ba1a-45e7-83fd-d0e93188f29d
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 8bcfe470-7ed3-42d4-8653-be5d76a52ae5
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  coreVersion: 330
+  clientVersion: 13.6000004

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    62215d1a-aa8c-4b9f-b645-7a79d92c83c5: 5faa2b2a-dd99-69da-4345-bdb980c348ae/cc620ba1685493c2d0ba508d3f0cb31b/Data/ml_hint_hexagon.png
+  Assets:
+    - !<FileTexture/62215d1a-aa8c-4b9f-b645-7a79d92c83c5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: cc620ba1685493c2d0ba508d3f0cb31b
+  FileHash: 09ce727c83e82f3cd30ae60853ce2011
+  NativePackageItems:
+    []

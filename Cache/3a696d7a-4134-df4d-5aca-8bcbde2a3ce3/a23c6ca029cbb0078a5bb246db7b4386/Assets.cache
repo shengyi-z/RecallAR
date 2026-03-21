@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    138d848e-c15e-4bd4-aeca-6241accce2d3: 3a696d7a-4134-df4d-5aca-8bcbde2a3ce3/a23c6ca029cbb0078a5bb246db7b4386/Data/small_hint_food.png
+  Assets:
+    - !<FileTexture/138d848e-c15e-4bd4-aeca-6241accce2d3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: a23c6ca029cbb0078a5bb246db7b4386
+  FileHash: 2f9cd5617974c81485541007c9e7c179
+  NativePackageItems:
+    []

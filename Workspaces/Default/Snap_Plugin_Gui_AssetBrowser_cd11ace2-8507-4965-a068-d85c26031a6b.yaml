@@ -1,0 +1,68 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 62
+    values:
+      - Easy Lens
+      - Easy Lens/Lens Components
+      - Easy Lens/Lens Components/CanvasAPI_5.14.lsc
+      - Easy Lens/LensController.js
+      - Echopark.hdr
+      - Object Detection.lspkg
+      - Object Detection.lspkg/Example Assets
+      - Object Detection.lspkg/Example Assets/Bounding Box Textures
+      - Object Detection.lspkg/Example Assets/Bounding Box Textures/corner_frame_tex.png
+      - Object Detection.lspkg/Example Assets/Bounding Box Textures/horizontal_frame_tex.png
+      - Object Detection.lspkg/Example Assets/Bounding Box Textures/vertical_frame_tex.png
+      - Object Detection.lspkg/Example Assets/Car Detection
+      - Object Detection.lspkg/Example Assets/Car Detection/big_hint_car.png
+      - Object Detection.lspkg/Example Assets/Car Detection/car_detection_model.dnn
+      - Object Detection.lspkg/Example Assets/Car Detection/small_hint_car.png
+      - Object Detection.lspkg/Example Assets/Food Detection
+      - Object Detection.lspkg/Example Assets/Food Detection/big_hint_food.png
+      - Object Detection.lspkg/Example Assets/Food Detection/food_detection_model.dnn
+      - Object Detection.lspkg/Example Assets/Food Detection/small_hint_food.png
+      - Object Detection.lspkg/ML Hint
+      - Object Detection.lspkg/ML Hint/Font
+      - Object Detection.lspkg/ML Hint/Font/FredokaOne-Regular.ttf
+      - Object Detection.lspkg/ML Hint/Materials
+      - Object Detection.lspkg/ML Hint/Materials/hint_image_masked.mat
+      - Object Detection.lspkg/ML Hint/Textures
+      - Object Detection.lspkg/ML Hint/Textures/ml_hint_hexagon.png
+      - Object Detection.lspkg/ML Hint/Textures/ml_hint_hexagon_mask.png
+      - Object Detection.lspkg/ML Hint/Textures/ml_loading
+      - Object Detection.lspkg/ML Hint/Textures/ml_loading/ml_loading.t3d
+      - Object Detection.lspkg/ML Hint/Textures/ml_loading/ml_loading.t3d/atlas_0.png
+      - Object Detection.lspkg/ML Hint/Textures/ml_loading/ml_loading.t3d/ml_loading
+      - Object Detection.lspkg/Materials
+      - Object Detection.lspkg/Materials/9_Slicing_Material.mat
+      - Object Detection.lspkg/Materials/9_Slicing_Material.ss_graph
+      - Object Detection.lspkg/Materials/SpriteGraphPreset.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset1.lsmat.ss_graph
+      - Object Detection.lspkg/Materials/SpriteGraphPreset10.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset11.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset12.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset13.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset2.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset3.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset4.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset5.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset6.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset7.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset8.lsmat.mat
+      - Object Detection.lspkg/Materials/SpriteGraphPreset9.lsmat.mat
+      - Object Detection.lspkg/Materials/hint_image_masked.ss_graph
+      - Object Detection.lspkg/Object Detection__ADD_TO_ORTHO_CAM.prefab
+      - Object Detection.lspkg/Preview Image
+      - Object Detection.lspkg/Preview Image/Car.jpg
+      - Object Detection.lspkg/Scripts
+      - Object Detection.lspkg/Scripts/HintController.js
+      - Object Detection.lspkg/Scripts/MLController.js
+      - Object Detection.lspkg/Scripts/ObjectDetectionController.js
+      - Object Detection.lspkg/Textures
+      - Object Detection.lspkg/Textures/Device Camera Texture.deviceCameraTexture
+      - Object Detection.lspkg/Textures/Simple Frame.png
+      - Object Detection.lspkg/Textures/line.png
+      - Object Detection.lspkg/package.native
+      - house_detection.onnx
+  options: 4

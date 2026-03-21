@@ -1,0 +1,115 @@
+- !<AssetCache>
+  AssetFiles:
+    76061aff-42b7-4558-9d57-d02f646dad9e: 7426757c-2003-a4ae-f3b7-f697a93964cb/be0e1e4934e4de5e9e08b40049d57add/Data/OnScreenShader.ss_graph
+  Assets:
+    - !<ShaderGraphPass/76061aff-42b7-4558-9d57-d02f646dad9e>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: 7426757c-2003-a4ae-f3b7-f697a93964cb/be0e1e4934e4de5e9e08b40049d57add/Data/6a992e8/OnScreenShader.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: be0e1e4934e4de5e9e08b40049d57add
+  FileHash: c8cfa5775c9995a8bb3cf9a9f6c78c5e
+  NativePackageItems:
+    []

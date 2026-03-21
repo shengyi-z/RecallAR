@@ -1,0 +1,84 @@
+SCC_BACKEND_SHADER_FLAGS_BEGIN__
+SCC_BACKEND_SHADER_FLAGS_END__
+//SG_REFLECTION_BEGIN(200)
+//attribute vec4 boneData 5
+//attribute vec3 blendShape0Pos 6
+//attribute vec3 blendShape0Normal 12
+//attribute vec3 blendShape1Pos 7
+//attribute vec3 blendShape1Normal 13
+//attribute vec3 blendShape2Pos 8
+//attribute vec3 blendShape2Normal 14
+//attribute vec3 blendShape3Pos 9
+//attribute vec3 blendShape4Pos 10
+//attribute vec3 blendShape5Pos 11
+//attribute vec4 position 0
+//attribute vec3 normal 1
+//attribute vec4 tangent 2
+//attribute vec2 texture0 3
+//attribute vec2 texture1 4
+//attribute vec4 color 18
+//attribute vec3 positionNext 15
+//attribute vec3 positionPrevious 16
+//attribute vec4 strandProperties 17
+//sampler sampler sc_OITCommonSampler 0:18
+//sampler sampler sc_ScreenTextureSmpSC 0:20
+//texture texture2D sc_OITAlpha0 0:3:0:18
+//texture texture2D sc_OITAlpha1 0:4:0:18
+//texture texture2D sc_OITDepthHigh0 0:5:0:18
+//texture texture2D sc_OITDepthHigh1 0:6:0:18
+//texture texture2D sc_OITDepthLow0 0:7:0:18
+//texture texture2D sc_OITDepthLow1 0:8:0:18
+//texture texture2D sc_OITFilteredDepthBoundsTexture 0:9:0:18
+//texture texture2D sc_OITFrontDepthTexture 0:10:0:18
+//texture texture2D sc_ScreenTexture 0:12:0:20
+//texture texture2DArray sc_ScreenTextureArrSC 0:26:0:20
+//spec_const bool BLEND_MODE_AVERAGE 0 0
+//spec_const bool BLEND_MODE_DARKEN 1 0
+//spec_const bool BLEND_MODE_DIVIDE 2 0
+//spec_const bool BLEND_MODE_LIGHTEN 3 0
+//spec_const bool BLEND_MODE_SUBTRACT 4 0
+//spec_const bool ENABLE_STIPPLE_PATTERN_TEST 5 0
+//spec_const bool UseViewSpaceDepthVariant 6 1
+//spec_const bool sc_BlendMode_Add 7 0
+//spec_const bool sc_BlendMode_AddWithAlphaFactor 8 0
+//spec_const bool sc_BlendMode_AlphaTest 9 0
+//spec_const bool sc_BlendMode_AlphaToCoverage 10 0
+//spec_const bool sc_BlendMode_ColoredGlass 11 0
+//spec_const bool sc_BlendMode_Max 12 0
+//spec_const bool sc_BlendMode_Min 13 0
+//spec_const bool sc_BlendMode_Multiply 14 0
+//spec_const bool sc_BlendMode_MultiplyOriginal 15 0
+//spec_const bool sc_BlendMode_Normal 16 0
+//spec_const bool sc_BlendMode_PremultipliedAlpha 17 0
+//spec_const bool sc_BlendMode_PremultipliedAlphaAuto 18 0
+//spec_const bool sc_BlendMode_PremultipliedAlphaHardware 19 0
+//spec_const bool sc_BlendMode_Screen 20 0
+//spec_const bool sc_DepthOnly 21 0
+//spec_const bool sc_FramebufferFetch 22 0
+//spec_const bool sc_MotionVectorsPass 23 0
+//spec_const bool sc_OITCompositingPass 24 0
+//spec_const bool sc_OITDepthBoundsPass 25 0
+//spec_const bool sc_OITDepthGatherPass 26 0
+//spec_const bool sc_OITDepthPrepass 27 0
+//spec_const bool sc_OITFrontLayerPass 28 0
+//spec_const bool sc_OITMaxLayers4Plus1 29 0
+//spec_const bool sc_OITMaxLayers8 30 0
+//spec_const bool sc_OITMaxLayersVisualizeLayerCount 31 0
+//spec_const bool sc_OutputBounds 32 0
+//spec_const bool sc_ProjectiveShadowsCaster 33 0
+//spec_const bool sc_ProjectiveShadowsReceiver 34 0
+//spec_const bool sc_RenderAlphaToColor 35 0
+//spec_const bool sc_ScreenTextureHasSwappedViews 36 0
+//spec_const bool sc_TAAEnabled 37 0
+//spec_const bool sc_VertexBlending 38 0
+//spec_const bool sc_VertexBlendingUseNormals 39 0
+//spec_const bool sc_Voxelization 40 0
+//spec_const int sc_DepthBufferMode 41 0
+//spec_const int sc_RenderingSpace 42 -1
+//spec_const int sc_ScreenTextureLayout 43 0
+//spec_const int sc_ShaderCacheConstant 44 0
+//spec_const int sc_SkinBonesCount 45 0
+//spec_const int sc_StereoRenderingMode 46 0
+//spec_const int sc_StereoRendering_IsClipDistanceEnabled 47 0
+//spec_const int sc_StereoViewID 48 0
+//SG_REFLECTION_END

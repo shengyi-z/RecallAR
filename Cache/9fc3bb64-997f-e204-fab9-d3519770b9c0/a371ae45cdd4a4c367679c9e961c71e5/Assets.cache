@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d88d0118-094a-49b3-bd78-46f266a247b2: 9fc3bb64-997f-e204-fab9-d3519770b9c0/a371ae45cdd4a4c367679c9e961c71e5/Data/horizontal_frame_tex.png
+  Assets:
+    - !<FileTexture/d88d0118-094a-49b3-bd78-46f266a247b2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 81
+  SourceHash: a371ae45cdd4a4c367679c9e961c71e5
+  FileHash: ae1c44983181feed0c864cc344b764f2
+  NativePackageItems:
+    []

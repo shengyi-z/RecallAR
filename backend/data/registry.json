@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "name": "Alice",
+        "relation": "Daughter",
+        "encoding": [] 
+    },
+    {
+        "id": "2",
+        "name": "Bob",
+        "relation": "Son",
+        "encoding": []
+    }
+]

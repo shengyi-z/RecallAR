@@ -16,3 +16,5 @@ Workspaces/**
 *.lock
 
 # Shipped by Lens Studio
+
+sample-code

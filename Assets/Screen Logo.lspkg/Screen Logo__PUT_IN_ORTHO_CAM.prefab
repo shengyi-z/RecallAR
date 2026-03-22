@@ -1,0 +1,104 @@
+- !<ObjectPrefab/73de18b5-1946-43c0-a466-7cfe9b8ffd08>
+  PackagePath: ""
+  objects:
+    - !<own> 46c87c99-94a0-4c6c-be0b-cdb0d5bf64a1
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/46c87c99-94a0-4c6c-be0b-cdb0d5bf64a1>
+  PrefabRemaps:
+    - 46c87c99-94a0-4c6c-be0b-cdb0d5bf64a1: 46c87c99-94a0-4c6c-41f4-324f2a409b5e
+    - 684f9f09-dc71-4ffd-95fa-cb23855e40e4: 684f9f09-dc71-4ffd-6a05-34dc7aa1bf1b
+    - 810e61df-d8ca-4ab0-832d-3e660061e916: 810e61df-d8ca-4ab0-7cd2-c199ff9e16e9
+    - f6ac417d-dc3d-4448-a13e-9150155b2623: f6ac417d-dc3d-4448-5ec1-6eafeaa4d9dc
+  Name: Screen Logo__PUT_IN_ORTHO_CAM
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f6ac417d-dc3d-4448-a13e-9150155b2623
+    - !<own> 810e61df-d8ca-4ab0-832d-3e660061e916
+    - !<own> 684f9f09-dc71-4ffd-95fa-cb23855e40e4
+- !<ScriptComponent/684f9f09-dc71-4ffd-95fa-cb23855e40e4>
+  PrefabRemaps:
+    []
+  Name: ScreenLogoController
+  Enabled: true
+  ScriptAsset: !<reference> 1c777a12-2a33-431d-93ba-422add44e433
+  ScriptInputsDefault:
+    logoSize: true
+    logoOffsetX: true
+    logoOffsetY: true
+    advanced: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      teamLogo: !<reference.Texture> 1c5054a3-1c3e-44f9-a099-e6d5ade5a34e
+      logoPosition: 0
+      logoAlpha: !<float> 1.000000
+      logoSize: 0.300000
+      logoOffsetX: !<float> 0.000000
+      logoOffsetY: !<float> 0.000000
+      advanced: false
+      screenLogo: !<reference.Image> 810e61df-d8ca-4ab0-832d-3e660061e916
+  ScriptTypes:
+    "":
+      {}
+- !<Image/810e61df-d8ca-4ab0-832d-3e660061e916>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6f34b4fd-e9d2-4638-a063-e040d9ad8ce7
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/f6ac417d-dc3d-4448-a13e-9150155b2623>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

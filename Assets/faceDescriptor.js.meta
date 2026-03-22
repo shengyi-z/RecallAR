@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/5746ecc1-517d-441f-b2f6-d3a920da7986>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4cddf085-c72d-4e47-a3ea-373726fce73d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4cddf085-c72d-4e47-a3ea-373726fce73d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 07ea0216-cf41-46f9-a97a-8a947d593149
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/07ea0216-cf41-46f9-a97a-8a947d593149>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8aab2c0b-6cb2-4cf6-873d-0eec8d251f32
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    infoCrad: false
+    mlComponent: false
+    nameText: false
+    registerMode: false
+    registerName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - mlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      nameText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      infoCrad: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      registerMode: false
+      registerName: David
+  ScriptTypes:
+    -
+      {}

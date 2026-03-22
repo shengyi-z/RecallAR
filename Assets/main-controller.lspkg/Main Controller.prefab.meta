@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/e2fe7d75-9565-2c52-0533-31e6647a26b1>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8444d572-f4d9-4ecd-9af3-dd2afe9a25ce
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8444d572-f4d9-4ecd-9af3-dd2afe9a25ce
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> b9c0fb92-2071-43aa-b6f1-22ac17b01dc1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/90eb822f-2e10-40d9-43a4-a888d8f1790f>
+  PrefabRemaps:
+    []
+  Name: Main Controller
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cbf00086-e462-4b3c-6686-b1f34ad2a4a1
+- !<ObjectPrefabAssetData/b9c0fb92-2071-43aa-b6f1-22ac17b01dc1>
+  Prototype: !<ObjectOwner/0b9de29c-665c-4ad5-9ec6-c9a5485e2f65>
+    PackagePath: ""
+    objects:
+      - !<own> 90eb822f-2e10-40d9-43a4-a888d8f1790f
+- !<ScriptComponent/cbf00086-e462-4b3c-6686-b1f34ad2a4a1>
+  PrefabRemaps:
+    []
+  Name: LensController 2
+  Enabled: true
+  ScriptAsset: !<reference> 6a8b1574-1363-42ce-942a-f0aa68674407
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      faceEvents_debug: !<reference.ScriptComponent> 9e4812c6-2b71-4545-8c32-1bf864bb89f5
+      faceStatusText: !<reference.ScriptComponent> 4c94579c-8c51-4f96-9d90-b0f505ee5f47
+      pip_faceCropPreview: !<reference.ScriptComponent> 91889031-f887-41da-9dd7-e0cf5885d9fa
+      selfieWidget_debug: !<reference.ScriptComponent> df09d0ee-ed0d-4b53-a7d7-f5452273ff6e
+      debug_texture_store: !<reference.ScriptComponent> ec354116-06b7-4e85-99d1-74415271515c
+      spriteManager: !<reference.ScriptComponent> 271a9ca2-443c-49d7-aedd-429bd6632869
+      canvasApi_debug: !<reference.ScriptComponent> c56c5ffe-f0e8-4c69-9933-03f1d6edf23c
+  ScriptTypes:
+    "":
+      {}

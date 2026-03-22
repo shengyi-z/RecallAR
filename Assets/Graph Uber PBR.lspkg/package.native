@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/41901977-a2a6-472e-b81a-f45f83922166>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101318
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Graph Uber PBR We replaced Uber PBR, Uber Diffuse and Uber Unlit with code node versions for 4.46 release to improve the performance, we want to still give users options to find the old version that is not made by code. If you would like to learn more about how to create a Graph Uber material with Material Editor, Now you can find Graph Uber PRB, Graph Uber Diffuse and Graph Uber Unlit from the asset library! This preset is made with material editor nodes without any code node."
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 595a277b-54c1-4002-b1a5-2a60bdc6e782
+  ComponentUid: e9524798-5eed-4984-a35e-61616b0ad228
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

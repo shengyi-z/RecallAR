@@ -11,6 +11,58 @@
   RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderOverlayOutput: !<reference> 00000000-0000-0000-0000-000000000000
+    - !<own> 36d03e9a-14d7-4bad-a0fa-be8cb975b959
+    - !<own> b3961d7a-af91-462a-8b77-8e64aa5cadfd
+    - !<own> 0d9d695f-95ac-4a8d-8183-ebf32718c061
+    - !<own> f65cd20c-c415-489e-9a1c-f5f9a51f63d6
+    - !<own> 73a44c03-cccd-487d-a669-43d1335fd63a
+    - !<own> 460ccfd2-ec8e-489b-90bf-c9bf4b831652
+  layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
+    userLayers:
+      - |
+        id: 13
+        name: Layer 1
+        color: 0
+
+      - |
+        id: 12
+        name: Layer 2
+        color: 1
+
+      - |
+        id: 4
+        name: Layer 3
+        color: 2
+
+      - |
+        id: 7
+        name: Layer 4
+        color: 3
+
+      - |
+        id: 6
+        name: Layer 5
+        color: 4
+
+      - |
+        id: 9
+        name: Layer 6
+        color: 5
+
+      - |
+        id: 18
+        name: Layer 7
+        color: 6
+
+      - |
+        id: 19
+        name: Layer 8
+        color: 7
+
+    HasOrtho: true
+  RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
+  RenderOverlayOutput: !<reference> 28c44619-0df0-4289-ab41-f00967e4b8db
   PhysicsRootWorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
 - !<SceneObject/00000000-0000-0065-0000-000000000064>
   PrefabRemaps:
@@ -24,10 +76,19 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     []
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
     - !<own> e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1
+=======
+    - !<own> b7de328f-43ef-493c-bcfd-85270635700c
+    - !<own> d93f986c-051b-42be-9069-c2706b278dc6
+  Components:
+    - !<own> 00000000-0000-0065-0000-000000000065
+    - !<own> e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1
+    - !<own> 0f6ce4e9-ad8f-4a23-937c-2a6af88ad25b
+>>>>>>> origin/main
 - !<Camera/00000000-0000-0065-0000-000000000065>
   PrefabRemaps:
     []
@@ -171,6 +232,7 @@
   DecayType: None
   DecayLimit: false
   DecayRange: 40.000000
+<<<<<<< HEAD
 - !<SceneObject/00fdb93a-85d7-4497-9622-9fad02238fc3>
   PrefabRemaps:
     []
@@ -280,6 +342,12 @@
   PrefabRemaps:
     []
   Name: RightHandModel
+=======
+- !<SceneObject/03872897-c4d3-4f68-97e6-53df6a87eee0>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -288,6 +356,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     - !<own> 876856b0-0b08-4488-9e57-976a4ddd348f
     - !<own> dfaad098-318f-4c37-a06b-b85501a6dd79
     - !<own> 71dbdbcb-fedd-46c0-adcb-e1f2e8b92f5d
@@ -376,10 +445,26 @@
     Position: {x: 0.000000, y: 3.549810, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+=======
+    - !<own> 331252a6-de92-4453-9977-0d92df452aaa
+  Components:
+    - !<own> cc79daef-104d-45ce-ba38-4f2fe2fe562e
+- !<SceneObject/04df8f46-d5b8-4169-81fb-5ca6cb22c22c>
+  PrefabRemaps:
+    []
+  Name: CardBackground
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 30.000000, z: 2.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 30.000000, y: 10.000000, z: 20.000000}
+>>>>>>> origin/main
     HasSegmentScaleCompensation: false
   Children:
     []
   Components:
+<<<<<<< HEAD
     []
 - !<SceneObject/1be2dd1d-c962-46d6-b5a9-05228e532e18>
   PrefabRemaps:
@@ -709,6 +794,49 @@
     []
   Name: InteractorCursors
   Enabled: true
+=======
+    - !<own> 0e10306f-6970-47c9-bf7d-9e0b57a70091
+    - !<own> da34a5c5-f41e-416e-8727-ca7f16c38ce1
+- !<Head/093dd522-9fba-4e18-9a38-20a609616c22>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 1
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AudioComponent/0a425df5-93f1-4fe9-94fa-c280f018247b>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> d4d207de-82c0-4945-ac0d-f1b076ed7107
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/0d9d695f-95ac-4a8d-8183-ebf32718c061>
+  PrefabRemaps:
+    []
+  Name: faceDescriptor
+  Enabled: false
+>>>>>>> origin/main
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -718,6 +846,7 @@
   Children:
     []
   Components:
+<<<<<<< HEAD
     - !<own> 2732d388-98da-4ba1-85c9-359ecb72d9e7
 - !<ScriptComponent/3bbf27ea-a24a-4d9f-84a6-56b5830bb48e>
   PrefabRemaps:
@@ -877,6 +1006,10 @@
   Components:
     []
 - !<RenderMeshVisual/403632c1-bd94-4e54-9777-1b641403a532>
+=======
+    - !<own> f2570e30-9da9-402e-a016-a381cd063433
+- !<RenderMeshVisual/0e10306f-6970-47c9-bf7d-9e0b57a70091>
+>>>>>>> origin/main
   PrefabRemaps:
     []
   Name: Render Mesh Visual
@@ -889,6 +1022,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
+<<<<<<< HEAD
     - !<reference> c72f8b22-b510-4487-9fd2-7506cd1440ce
   Mesh: !<reference> 257ad973-6ee4-4da4-8049-1dd2427f16ca
   Skin: !<reference> c6a71617-bec5-4be9-ba30-ccd2320ff3e4
@@ -1349,11 +1483,16 @@
   Materials:
     - !<reference> c72f8b22-b510-4487-9fd2-7506cd1440ce
   Mesh: !<reference> 45df9a0d-41bc-4c17-b88a-87941f850c30
+=======
+    - !<reference> 3fd3b869-271c-4aee-880e-bad8c8b3e5c8
+  Mesh: !<reference> 83242991-8d4d-4a2d-a896-8f6be28294c6
+>>>>>>> origin/main
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
   BlendShapes:
     {}
+<<<<<<< HEAD
 - !<SceneObject/6592fd98-8ae7-43b2-9e0d-b63edeaac767>
   PrefabRemaps:
     []
@@ -1457,10 +1596,21 @@
   ScriptAsset: !<reference> 8a9b1d02-a363-4339-be4e-9951baeeae9b
   ScriptInputsDefault:
     enableSyncCursors: true
+=======
+- !<ScriptComponent/0f6ce4e9-ad8f-4a23-937c-2a6af88ad25b>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript 7
+  Enabled: true
+  ScriptAsset: !<reference> 356428f6-9f52-458d-b03f-0206ff0d430d
+  ScriptInputsDefault:
+    {}
+>>>>>>> origin/main
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
+<<<<<<< HEAD
       enableSyncCursors: true
   ScriptTypes:
     "":
@@ -1469,6 +1619,47 @@
   PrefabRemaps:
     []
   Name: RightHandMeshFull
+=======
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/17b0391f-8b57-4d61-a9ba-2fb8d78338aa>
+  PrefabRemaps:
+    []
+  Name: Note
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 25.000000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bc2bd061-b000-48c8-900f-ff9ef6985405
+- !<ScriptComponent/1d0ad3bf-ed1d-4125-9914-01f19bd948eb>
+  PrefabRemaps:
+    []
+  Name: SnapchatPlacesAPI
+  Enabled: true
+  ScriptAsset: !<reference> d934191d-bfdc-42c8-9555-f7ceeac4657c
+  ScriptInputsDefault:
+    remoteServiceModule: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      remoteServiceModule: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/21991b8d-2058-41b1-adb2-3374c5e3e737>
+  PrefabRemaps:
+    []
+  Name: Face Crop Texture
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -1479,6 +1670,7 @@
   Children:
     []
   Components:
+<<<<<<< HEAD
     - !<own> 6cac85a8-f502-4056-881b-db428723681c
 - !<SceneObject/73b7e3d8-b7f3-4c24-9f65-4ecfc6871b0d>
   PrefabRemaps:
@@ -1496,11 +1688,218 @@
   Components:
     []
 - !<RenderMeshVisual/75d719fb-84ac-454c-9e85-1bfaf7456e62>
+=======
+    - !<own> c7e88d80-5d3e-4419-8752-86b74999b001
+- !<SceneObject/21d08cce-08aa-4264-ae3f-497b281010e0>
+  PrefabRemaps:
+    []
+  Name: FaceTracker 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> f8de7b25-b27f-45e4-8b94-fe8aaa6955a9
+    - !<own> b5bb66e5-ac1c-4fee-9ff0-cd5ac7df0dcf
+  Components:
+    - !<own> 6d37542a-d371-49f0-ad76-77063a8aabd1
+- !<SceneObject/27db1bad-a6a6-4382-9f29-e4084dfb3f16>
+  PrefabRemaps:
+    []
+  Name: Title
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.276599, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d106997e-179b-404e-abf2-b842c1bedfb3
+- !<SceneObject/331252a6-de92-4453-9977-0d92df452aaa>
+  PrefabRemaps:
+    []
+  Name: Face Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 493339c7-e6aa-4d73-a7d5-888094d99127
+- !<ScriptComponent/33634023-12b7-44f9-9376-1a03419a0ae8>
+  PrefabRemaps:
+    []
+  Name: displayInfo
+  Enabled: true
+  ScriptAsset: !<reference> 20fdb992-1634-4c60-80d2-60a6d83d7b82
+  ScriptInputsDefault:
+    showOnlyWhenFaceDetected: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      nameText: !<reference.Text3D> 8d2ac349-7edf-4092-a23e-8837b41f031d
+      relationText: !<reference.Text3D> 593817df-6019-4d6b-a67a-f71988da105d
+      noteText: !<reference.Text3D> bc2bd061-b000-48c8-900f-ff9ef6985405
+      cardRoot: !<reference.SceneObject> b825e766-ddff-4d33-9793-f0bad6b2eaf3
+      personName: Shengyi Zhong
+      relation: My Friend
+      note: We did CareXR together
+      showOnlyWhenFaceDetected: true
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/359f8ff5-94ff-4c35-813b-efebc9ad75dd>
+>>>>>>> origin/main
   PrefabRemaps:
     []
   Name: Render Mesh Visual
   Enabled: true
+<<<<<<< HEAD
   RenderOrder: 9999
+=======
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 0.254902, y: 0.184314, z: 0.129412, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0685bfce-a083-4fa8-9019-311e1f31750b
+  Mesh: !<reference> c49f2d5f-1ca8-477e-a198-c85b7568612c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/35a8b0aa-1a8c-447c-9246-994f3ce090df>
+  PrefabRemaps:
+    []
+  Name: Relation
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 28.000000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> af74554b-15ab-4b15-ae72-84fc963a1ee2
+- !<SceneObject/36d03e9a-14d7-4bad-a0fa-be8cb975b959>
+  PrefabRemaps:
+    []
+  Name: SnapchatPlacesAPI
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d0ad3bf-ed1d-4125-9914-01f19bd948eb
+- !<SceneObject/388fd8b3-27ed-4e39-8ccd-ae9deea43730>
+  PrefabRemaps:
+    []
+  Name: Main Controller
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b8480b74-3eb8-4d1c-8574-8e2829e9112f
+- !<SceneObject/3b9a462d-a495-4608-8da2-f047562c77ae>
+  PrefabRemaps:
+    []
+  Name: Desctiption
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.399348, y: 0.181084, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.750000, y: 0.750000, z: 0.750000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d0d2a65b-adb2-4405-94f0-233c4678f2e8
+- !<SceneObject/460ccfd2-ec8e-489b-90bf-c9bf4b831652>
+  PrefabRemaps:
+    []
+  Name: daughter_cleo
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0a425df5-93f1-4fe9-94fa-c280f018247b
+- !<SceneObject/46d369cc-7e71-4516-8c86-4f1663901f12>
+  PrefabRemaps:
+    []
+  Name: displayInfo
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 33634023-12b7-44f9-9376-1a03419a0ae8
+- !<RenderMeshVisual/493339c7-e6aa-4d73-a7d5-888094d99127>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 0.254902, y: 0.184314, z: 0.129412, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0685bfce-a083-4fa8-9019-311e1f31750b
+  Mesh: !<reference> c49f2d5f-1ca8-477e-a198-c85b7568612c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Text3D/54dfdfff-464e-4af9-884c-5dd971e7fdf2>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+>>>>>>> origin/main
   StretchMode: Stretch
   VerticalAlignment: Center
   HorizontalAlignment: Center
@@ -1508,6 +1907,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
+<<<<<<< HEAD
     - !<reference> 64bdf844-8131-4c35-99e2-1c4a94e2cdc3
   Mesh: !<reference> 15e33d09-bf02-4bd8-8863-09f13f29d338
   Skin: !<reference> d8e487e7-f06e-4df8-9d20-3d85a408de2b
@@ -1552,6 +1952,124 @@
   PrefabRemaps:
     []
   Name: "[OPTIONAL] Visuals"
+=======
+    - !<reference> 1611d897-2844-4f53-b516-9c68b3d279d1
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 57
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text3D/593817df-6019-4d6b-a67a-f71988da105d>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1611d897-2844-4f53-b516-9c68b3d279d1
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<RenderMeshVisual/69e1aa80-2866-45e5-ae2b-7830897dd620>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d40540ad-17f7-4119-8c9c-25674b7abd37
+  Mesh: !<reference> 83242991-8d4d-4a2d-a896-8f6be28294c6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<Head/6d37542a-d371-49f0-ad76-77063a8aabd1>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 1
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/709b5679-bcd5-4ba4-b150-975adbfb29ea>
+  PrefabRemaps:
+    []
+  Name: Snapchat Places API API
+  Enabled: true
+  ScriptAsset: !<reference> 20b2b4eb-b8f8-4f51-ac7b-d537ce969dc1
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      remoteServiceModule: !<reference.RemoteServiceModule> 8ba8fd1c-3050-4008-a028-c6dfa0bc4169
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/70c65988-c5ea-4c66-82e4-051af392d74c>
+  PrefabRemaps:
+    []
+  Name: FaceTracker
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -1560,6 +2078,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     - !<own> 5d0fd01d-a7f6-432e-b50e-d0c6a689b942
     - !<own> 3a4261f4-2931-43c1-9fdf-cceacb788e80
   Components:
@@ -1583,6 +2102,32 @@
   PrefabRemaps:
     []
   Name: LeftHandModel
+=======
+    - !<own> b825e766-ddff-4d33-9793-f0bad6b2eaf3
+    - !<own> 46d369cc-7e71-4516-8c86-4f1663901f12
+  Components:
+    - !<own> de2d845b-9a26-475f-aed7-b33db56a66a7
+- !<ScriptComponent/70f84bab-cfa5-4a22-aa04-7ba6aa7c690f>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript 2
+  Enabled: true
+  ScriptAsset: !<reference> 3abbd533-6ab0-46ca-8428-9ab7440d07e5
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/73a44c03-cccd-487d-a669-43d1335fd63a>
+  PrefabRemaps:
+    []
+  Name: thiSisSabrina
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -1591,6 +2136,7 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     - !<own> 18c6646c-d787-40eb-b594-cb83f8a4ee95
     - !<own> 65ff586f-24f0-413e-b7e8-6b82b99f33eb
     - !<own> f159ac9f-4106-46b2-a411-08c58f855bc4
@@ -1691,10 +2237,20 @@
   PrefabRemaps:
     []
   Name: RightHandRig
+=======
+    []
+  Components:
+    - !<own> b57cded6-ac78-4800-b84c-a71c58d0feae
+- !<SceneObject/75cc02bc-8cba-4baa-9eef-8040e07d8357>
+  PrefabRemaps:
+    []
+  Name: Object 0
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+<<<<<<< HEAD
     Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
@@ -1725,10 +2281,13 @@
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 2.218170, z: 0.000000}
+=======
+>>>>>>> origin/main
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     []
   Components:
     []
@@ -1768,12 +2327,1288 @@
   Name: RightHandPinMesh
   Enabled: false
   Layers: 2
+=======
+    - !<own> f55e043d-07d3-44f1-9f79-47c319c5e7b6
+  Components:
+    []
+- !<SceneObject/75ff3e35-f57e-47f6-9574-746073e6108b>
+  PrefabRemaps:
+    []
+  Name: "Info Card [DELETE_ME]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 25.742777, y: 25.742777, z: 25.742777}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 27db1bad-a6a6-4382-9f29-e4084dfb3f16
+    - !<own> 3b9a462d-a495-4608-8da2-f047562c77ae
+    - !<own> 912e46ca-3c89-4ee4-887f-437c833017ef
+  Components:
+    - !<own> 7623e581-8897-43d9-acbe-0cf3169d76b4
+- !<Image/7623e581-8897-43d9-acbe-0cf3169d76b4>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 1
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 56ed5b81-f166-47db-8e94-25e2f6c85a76
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8304c3e1-32e8-41c1-8596-1253677acb67>
+  PrefabRemaps:
+    []
+  Name: CardBackground
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 30.000000, z: 2.000000}
+    Rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 30.000000, y: 10.000000, z: 20.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 69e1aa80-2866-45e5-ae2b-7830897dd620
+    - !<own> 70f84bab-cfa5-4a22-aa04-7ba6aa7c690f
+- !<PostEffectVisual/846a631d-c251-43be-aaca-81c21145e71e>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+- !<MLComponent/87f225d5-2ef7-481b-bbdf-0b795822eb7a>
+  PrefabRemaps:
+    []
+  Name: MLComponent
+  Enabled: true
+  RenderOrder: 0
+  AutoBuild: true
+  AutoRun: true
+  Inputs:
+    - !<MLInput>
+      Name: input.1
+      Shape: {x: 112.000000, y: 112.000000, z: 3.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      Transformer:
+        stretch: true
+        alignment.horizontal: Center
+        alignment.vertical: Center
+        fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        flipX: false
+        flipY: false
+        rotation: None
+      Texture: !<reference> 8d13c48f-5a97-4dd1-aff8-094ff642fa5e
+  Outputs:
+    - !<MLOutput>
+      Name: 516
+      Shape: {x: 1.000000, y: 1.000000, z: 512.000000}
+      Normalizations:
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+        - scale: 1.000000
+          bias: 0.000000
+      InputName: ""
+      OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Model: !<reference> 15cb6d83-0714-47e4-9fad-03c46171c2d4
+- !<SceneObject/89a9830b-7173-4063-af22-72f42ae5ff2f>
+  PrefabRemaps:
+    []
+  Name: Face Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.869448, y: 0.869448, z: 0.869448}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 359f8ff5-94ff-4c35-813b-efebc9ad75dd
+- !<ScriptComponent/8a8c520b-279e-4e6f-b5a7-8ed4b8c53dc0>
+  PrefabRemaps:
+    []
+  Name: DepthEffectController_UpdateEvent
+  Enabled: true
+  ScriptAsset: !<reference> 9b5613ce-8ae6-4b07-97dd-2253507253de
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      materials: !<reference.Material[]>
+        - !<reference> c1be6544-b4b9-428d-8210-4dff6410c697
+      depthTexture: !<reference.Texture> b7fa0f44-3c1a-49f2-acc1-6312e6c02b90
+      placeholderTexture: !<reference.Texture> 910bb4c4-69da-47a3-ab02-db1b3ea87695
+  ScriptTypes:
+    "":
+      {}
+- !<Text3D/8d2ac349-7edf-4092-a23e-8837b41f031d>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1611d897-2844-4f53-b516-9c68b3d279d1
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 57
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<ScriptComponent/8eeb2738-a779-489c-bfe8-49784fe25c75>
+  PrefabRemaps:
+    []
+  Name: displayInfo
+  Enabled: true
+  ScriptAsset: !<reference> 20fdb992-1634-4c60-80d2-60a6d83d7b82
+  ScriptInputsDefault:
+    showOnlyWhenFaceDetected: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      nameText: !<reference.Text3D> 54dfdfff-464e-4af9-884c-5dd971e7fdf2
+      relationText: !<reference.Text3D> af74554b-15ab-4b15-ae72-84fc963a1ee2
+      noteText: !<reference.Text3D> bda2af4e-bdb8-4ab8-b01b-628eea1498a7
+      cardRoot: !<reference.SceneObject> f8de7b25-b27f-45e4-8b94-fe8aaa6955a9
+      personName: Sabrina Yan
+      relation: The Other Friend
+      note: She never sleeps
+      showOnlyWhenFaceDetected: true
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/912e46ca-3c89-4ee4-887f-437c833017ef>
+  PrefabRemaps:
+    []
+  Name: Delete Description
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.417482, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bcdde040-e489-440f-a2b6-652cd3519aa4
+- !<SceneObject/91abade4-0bf6-4816-b1f2-5fecc9ee9cf3>
+  PrefabRemaps:
+    []
+  Name: DOF
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 846a631d-c251-43be-aaca-81c21145e71e
+- !<SceneObject/96162386-4c62-4ffd-99ba-46de1c8c6e90>
+  PrefabRemaps:
+    []
+  Name: Name
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 33.000000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.000000, y: 3.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 54dfdfff-464e-4af9-884c-5dd971e7fdf2
+- !<SceneObject/9a91b041-dd7d-4c24-9b20-a0e59342a576>
+  PrefabRemaps:
+    []
+  Name: Head Binding 1
+  Enabled: true
+  Layers: 1
+>>>>>>> origin/main
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     []
   Components:
     - !<own> 5fa37268-1896-49a0-b157-2ecff0a9c18d
@@ -1857,6 +3692,52 @@
     []
   Name: MouseInteractor
   Enabled: true
+=======
+    - !<own> 89a9830b-7173-4063-af22-72f42ae5ff2f
+  Components:
+    - !<own> 093dd522-9fba-4e18-9a38-20a609616c22
+- !<Text3D/af74554b-15ab-4b15-ae72-84fc963a1ee2>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b1ebd2a0-ef72-44bf-8a44-397f0326ce5b
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<SceneObject/b3961d7a-af91-462a-8b77-8e64aa5cadfd>
+  PrefabRemaps:
+    []
+  Name: Snapchat Places API API
+  Enabled: false
+>>>>>>> origin/main
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1866,6 +3747,7 @@
   Children:
     []
   Components:
+<<<<<<< HEAD
     - !<own> 329940fb-34dd-413d-8f14-ed6fa1f135b5
 - !<ScriptComponent/ab22849e-ac61-44f6-a05a-705b1b8d329f>
   PrefabRemaps:
@@ -1873,6 +3755,527 @@
   Name: ConfigurationValidator
   Enabled: true
   ScriptAsset: !<reference> 5249534b-e5e3-494c-afad-124a32012655
+=======
+    - !<own> 709b5679-bcd5-4ba4-b150-975adbfb29ea
+- !<AudioComponent/b57cded6-ac78-4800-b84c-a71c58d0feae>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 06a85e18-611c-4c14-b858-d802c2c34a27
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
+- !<SceneObject/b5bb66e5-ac1c-4fee-9ff0-cd5ac7df0dcf>
+  PrefabRemaps:
+    []
+  Name: displayInfo
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8eeb2738-a779-489c-bfe8-49784fe25c75
+- !<SceneObject/b7de328f-43ef-493c-bcfd-85270635700c>
+  PrefabRemaps:
+    []
+  Name: Effects
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 03872897-c4d3-4f68-97e6-53df6a87eee0
+    - !<own> 9a91b041-dd7d-4c24-9b20-a0e59342a576
+    - !<own> 70c65988-c5ea-4c66-82e4-051af392d74c
+    - !<own> 21d08cce-08aa-4264-ae3f-497b281010e0
+  Components:
+    []
+- !<SceneObject/b825e766-ddff-4d33-9793-f0bad6b2eaf3>
+  PrefabRemaps:
+    []
+  Name: InfoCrad
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8304c3e1-32e8-41c1-8596-1253677acb67
+    - !<own> ef4cb83a-71a7-432c-b4f7-48e593b4482b
+    - !<own> b8c74060-2c90-43df-b852-afa4df1915e7
+    - !<own> 17b0391f-8b57-4d61-a9ba-2fb8d78338aa
+  Components:
+    []
+- !<ScriptComponent/b8480b74-3eb8-4d1c-8574-8e2829e9112f>
+  PrefabRemaps:
+    []
+  Name: LensController 2
+  Enabled: true
+  ScriptAsset: !<reference> 23c25aba-a0f8-4b2d-9144-a0779b5c5606
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      faceEvents_debug: !<reference.ScriptComponent> 9e4812c6-2b71-4545-8c32-1bf864bb89f5
+      faceStatusText: !<reference.ScriptComponent> 4c94579c-8c51-4f96-9d90-b0f505ee5f47
+      pip_faceCropPreview: !<reference.ScriptComponent> 91889031-f887-41da-9dd7-e0cf5885d9fa
+      selfieWidget_debug: !<reference.ScriptComponent> df09d0ee-ed0d-4b53-a7d7-f5452273ff6e
+      debug_texture_store: !<reference.ScriptComponent> ec354116-06b7-4e85-99d1-74415271515c
+      spriteManager: !<reference.ScriptComponent> 271a9ca2-443c-49d7-aedd-429bd6632869
+      canvasApi_debug: !<reference.ScriptComponent> c56c5ffe-f0e8-4c69-9933-03f1d6edf23c
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/b8c74060-2c90-43df-b852-afa4df1915e7>
+  PrefabRemaps:
+    []
+  Name: Relation
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 28.000000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 593817df-6019-4d6b-a67a-f71988da105d
+- !<Text3D/bc2bd061-b000-48c8-900f-ff9ef6985405>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1611d897-2844-4f53-b516-9c68b3d279d1
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Text/bcdde040-e489-440f-a2b6-652cd3519aa4>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: 'Make sure to delete the "Info Card [DELETE_ME]" object'
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.000000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<Text3D/bda2af4e-bdb8-4ab8-b01b-628eea1498a7>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b1ebd2a0-ef72-44bf-8a44-397f0326ce5b
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false
+- !<Image/c7e88d80-5d3e-4419-8752-86b74999b001>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Fill
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8dce2f0e-c939-476b-8b59-8d3cf4375dd0
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Head/cc79daef-104d-45ce-ba38-4f2fe2fe562e>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Text/d0d2a65b-adb2-4405-94f0-233c4678f2e8>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Top
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    The depth of field effect will only work with
+    devices that generate depth data.
+    
+    To see the depth effect in Lens Studio Preview
+    panel, select a depth preview video.
+    
+    When depth data is not available, a user-defined
+    black and white texture is automatically used
+    to blur part of the screen.
+    
+    Check "Depth Controller [EDIT_ME]" object to
+    control the depth effect.
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 2
+  Font: !<reference> 4929ce57-c393-490b-aefb-cc105dcb4447
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.497627, y: 0.497612, z: 0.497627, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<Text/d106997e-179b-404e-abf2-b842c1bedfb3>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Important Note
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 3
+  Font: !<reference> 9d3f90a4-cc73-4193-a573-c7663f7b3e76
+  LayoutRect:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: -0.040000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<SceneObject/d4614c4f-2f3d-461f-a2a2-45cd3a8350ff>
+  PrefabRemaps:
+    []
+  Name: Note
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 25.000000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bda2af4e-bdb8-4ab8-b01b-628eea1498a7
+- !<SceneObject/d93f986c-051b-42be-9069-c2706b278dc6>
+  PrefabRemaps:
+    - 27db1bad-a6a6-4382-9f29-e4084dfb3f16: 4f96ca79-9ff3-4ed6-4ff7-e6229e64ca3a
+    - 3b9a462d-a495-4608-8da2-f047562c77ae: 9e811ddb-170e-4619-4381-9a25b9e8c3fa
+    - 75ff3e35-f57e-47f6-9574-746073e6108b: e93cf016-26ed-48d1-6ff6-8627ba265def
+    - 7623e581-8897-43d9-acbe-0cf3169d76b4: c61d5d8d-a650-4adf-51d6-61772b913e9e
+    - 846a631d-c251-43be-aaca-81c21145e71e: fe53e3b3-85e3-42ad-6812-bd1b92c7945f
+    - 8a8c520b-279e-4e6f-b5a7-8ed4b8c53dc0: 1866713a-cc66-4210-4988-cf90bccdc930
+    - 912e46ca-3c89-4ee4-887f-437c833017ef: b6ac884d-7d8b-485a-7e30-878eb71f83e5
+    - 91abade4-0bf6-4816-b1f2-5fecc9ee9cf3: 211fdab7-7b03-40cc-513d-2437e4ca8d89
+    - bcdde040-e489-440f-a2b6-652cd3519aa4: 23f25184-dd56-489d-663a-a36be6ef4fb3
+    - d0d2a65b-adb2-4405-94f0-233c4678f2e8: 31ac7dd9-0d8e-4eab-7f9d-e4ec786ede76
+    - d106997e-179b-404e-abf2-b842c1bedfb3: b3c3c0d9-b73a-453d-66f4-85847c98f7e9
+    - d93f986c-051b-42be-9069-c2706b278dc6: 82611222-2418-471a-7567-1a6372cad273
+    - fdd96ac6-e2a6-42cd-9fb3-170cb09e2c2d: 0b79727c-c22c-430b-4551-87a8f7135b88
+  Name: DepthOfField
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fdd96ac6-e2a6-42cd-9fb3-170cb09e2c2d
+    - !<own> 91abade4-0bf6-4816-b1f2-5fecc9ee9cf3
+    - !<own> 75ff3e35-f57e-47f6-9574-746073e6108b
+  Components:
+    []
+- !<ScriptComponent/da34a5c5-f41e-416e-8727-ca7f16c38ce1>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript 2
+  Enabled: true
+  ScriptAsset: !<reference> 3abbd533-6ab0-46ca-8428-9ab7440d07e5
+>>>>>>> origin/main
   ScriptInputsDefault:
     {}
   ScriptTypesDefault:
@@ -1883,6 +4286,7 @@
   ScriptTypes:
     "":
       {}
+<<<<<<< HEAD
 - !<SceneObject/ab75b6c7-644c-445e-87eb-b92d21152410>
   PrefabRemaps:
     []
@@ -2589,6 +4993,25 @@
     - !<own> 5a2ca1a2-f292-4079-aebb-f491bb9f5bf5
   Components:
     []
+=======
+- !<Head/de2d845b-9a26-475f-aed7-b33db56a66a7>
+  PrefabRemaps:
+    []
+  Name: Head Binding
+  Enabled: true
+  AttachmentPointType: HeadCenter
+  FaceIndex: 0
+  AttachedBarycentricVertex:
+    indices:
+      - 0
+      - 0
+      - 0
+    weights:
+      - 0.000000
+      - 0.000000
+      - 0.000000
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
+>>>>>>> origin/main
 - !<DeviceTracking/e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1>
   PrefabRemaps:
     []
@@ -2599,10 +5022,78 @@
     InvertRotation: false
   SurfaceOptions: !<SurfaceOptions>
     EnhanceWithNativeAR: false
+<<<<<<< HEAD
 - !<SceneObject/e67355a4-c26a-4bfc-b712-56f879b0f199>
   PrefabRemaps:
     []
   Name: MobileInteractor
+=======
+- !<SceneObject/ef4cb83a-71a7-432c-b4f7-48e593b4482b>
+  PrefabRemaps:
+    []
+  Name: Name
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 33.000000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.000000, y: 3.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8d2ac349-7edf-4092-a23e-8837b41f031d
+- !<ScriptComponent/f1a5059e-b926-49ee-9131-8a1bc09dfd9b>
+  PrefabRemaps:
+    []
+  Name: ml
+  Enabled: true
+  ScriptAsset: !<reference> 31b7f3d3-8532-4c8b-893f-4ad3f3d41dd5
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      ml: !<reference.MLComponent> 87f225d5-2ef7-481b-bbdf-0b795822eb7a
+      nameText: !<reference.Text3D> 8d2ac349-7edf-4092-a23e-8837b41f031d
+      relationText: !<reference.Text3D> 593817df-6019-4d6b-a67a-f71988da105d
+      noteText: !<reference.Text3D> bc2bd061-b000-48c8-900f-ff9ef6985405
+      infoCrad: !<reference.SceneObject> b825e766-ddff-4d33-9793-f0bad6b2eaf3
+      sabrinaAudio: !<reference.AudioComponent> b57cded6-ac78-4800-b84c-a71c58d0feae
+      cleoAudio: !<reference.AudioComponent> 0a425df5-93f1-4fe9-94fa-c280f018247b
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/f2570e30-9da9-402e-a016-a381cd063433>
+  PrefabRemaps:
+    []
+  Name: faceDescriptor
+  Enabled: true
+  ScriptAsset: !<reference> 4cddf085-c72d-4e47-a3ea-373726fce73d
+  ScriptInputsDefault:
+    mlComponent: true
+    nameText: true
+    infoCrad: true
+    registerMode: true
+    registerName: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      mlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      nameText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      infoCrad: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      registerMode: false
+      registerName: David
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f55e043d-07d3-44f1-9f79-47c319c5e7b6>
+  PrefabRemaps:
+    []
+  Name: ml
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -2613,6 +5104,7 @@
   Children:
     []
   Components:
+<<<<<<< HEAD
     - !<own> 28cf3766-599c-4bd5-8505-2a92bf6606ed
 - !<SceneObject/e7d04753-28a1-4f9d-bc21-9c8284652226>
   PrefabRemaps:
@@ -2711,11 +5203,31 @@
   Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
+=======
+    - !<own> f1a5059e-b926-49ee-9131-8a1bc09dfd9b
+    - !<own> 87f225d5-2ef7-481b-bbdf-0b795822eb7a
+- !<SceneObject/f65cd20c-c415-489e-9a1c-f5f9a51f63d6>
+  PrefabRemaps:
+    - 21991b8d-2058-41b1-adb2-3374c5e3e737: cf2fe1e3-af80-4ac2-5023-ba039f21704d
+    - 388fd8b3-27ed-4e39-8ccd-ae9deea43730: 6a4b5a48-fb39-48f7-5fe5-80c4b68fc766
+    - 75cc02bc-8cba-4baa-9eef-8040e07d8357: e55392f9-1b8b-4a03-4515-28601b108ebb
+    - 87f225d5-2ef7-481b-bbdf-0b795822eb7a: 484e1000-423b-459a-6901-5723d9711553
+    - b8480b74-3eb8-4d1c-8574-8e2829e9112f: c16839ae-71cc-4518-619c-192bb016f1ed
+    - c7e88d80-5d3e-4419-8752-86b74999b001: 90133894-663f-4915-7e98-6f726ff5b527
+    - f1a5059e-b926-49ee-9131-8a1bc09dfd9b: 26f751d2-d1e2-481b-5bd6-b82f80e67a8e
+    - f55e043d-07d3-44f1-9f79-47c319c5e7b6: c5ca69ca-ba43-46df-6ad2-82ba5669164b
+    - f65cd20c-c415-489e-9a1c-f5f9a51f63d6: 917e7831-362f-428d-4a91-2501dd08e508
+  Name: Group
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+>>>>>>> origin/main
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
+<<<<<<< HEAD
     - !<own> adc75353-1cbe-476e-a85f-d1f14ed9eeed
   Components:
     []
@@ -2738,10 +5250,22 @@
   PrefabRemaps:
     []
   Name: LeftHandMeshFull
+=======
+    - !<own> 75cc02bc-8cba-4baa-9eef-8040e07d8357
+    - !<own> 388fd8b3-27ed-4e39-8ccd-ae9deea43730
+    - !<own> 21991b8d-2058-41b1-adb2-3374c5e3e737
+  Components:
+    []
+- !<SceneObject/f8de7b25-b27f-45e4-8b94-fe8aaa6955a9>
+  PrefabRemaps:
+    []
+  Name: InfoCrad
+>>>>>>> origin/main
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+<<<<<<< HEAD
     Rotation: {x: -90.000000, y: -0.000000, z: -0.000000}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
@@ -2794,3 +5318,30 @@
     - !<own> 929164ef-2d41-474a-a457-1bf03d6cd9f1
   Components:
     []
+=======
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 04df8f46-d5b8-4169-81fb-5ca6cb22c22c
+    - !<own> 96162386-4c62-4ffd-99ba-46de1c8c6e90
+    - !<own> 35a8b0aa-1a8c-447c-9246-994f3ce090df
+    - !<own> d4614c4f-2f3d-461f-a2a2-45cd3a8350ff
+  Components:
+    []
+- !<SceneObject/fdd96ac6-e2a6-42cd-9fb3-170cb09e2c2d>
+  PrefabRemaps:
+    []
+  Name: "Depth Controller [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8a8c520b-279e-4e6f-b5a7-8ed4b8c53dc0
+>>>>>>> origin/main

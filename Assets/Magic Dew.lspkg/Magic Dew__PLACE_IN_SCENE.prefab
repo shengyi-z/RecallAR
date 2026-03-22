@@ -1,0 +1,239 @@
+- !<ObjectPrefab/185ed913-4c66-4a90-bf54-1eed430aa87d>
+  PackagePath: ""
+  objects:
+    - !<own> a2358f51-a1cf-49c2-bf0c-197dbaa2f6ac
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/0d34073f-acb3-407c-97e6-bfc942b2d375>
+  PrefabRemaps:
+    []
+  Name: Cylinder
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -25.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.080000, y: 0.080000, z: 0.080000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ce6d8a9-5faa-4a1c-b338-00a1df2d91fb
+- !<RenderMeshVisual/122e43b8-4ed3-4084-ac93-16bb8f5746b7>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bd9b91b4-5b63-4f67-8053-39cb6f50a854
+  Mesh: !<reference> 30367aff-c736-4c0d-b92c-b4e00acfc7db
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3ce6d8a9-5faa-4a1c-b338-00a1df2d91fb>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bd9b91b4-5b63-4f67-8053-39cb6f50a854
+  Mesh: !<reference> 202c3b14-6480-487d-ac4e-31a095d8a6a7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/65fdc2e5-9329-49dc-864e-a80ac96c73bc>
+  PrefabRemaps:
+    []
+  Name: Torus
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 2.117910, z: 0.000000}
+    Rotation: {x: 90.000023, y: -64.000000, z: -90.000023}
+    Scale: {x: 0.120000, y: 0.120000, z: 0.120000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 122e43b8-4ed3-4084-ac93-16bb8f5746b7
+- !<SceneObject/672edb54-48f6-4340-a169-bb1ca74adf4f>
+  PrefabRemaps:
+    []
+  Name: Testing Shapes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -20.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.700000, y: 0.700000, z: 0.700000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e7ca644f-a32d-496a-868d-10b73b3a17ac
+    - !<own> 65fdc2e5-9329-49dc-864e-a80ac96c73bc
+    - !<own> 0d34073f-acb3-407c-97e6-bfc942b2d375
+    - !<own> 8cf0355d-5f8c-40c6-8c98-205b864b9307
+  Components:
+    []
+- !<SceneObject/8cf0355d-5f8c-40c6-8c98-205b864b9307>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -25.735518, z: 0.000000}
+    Rotation: {x: 180.000000, y: -20.335995, z: 180.000000}
+    Scale: {x: 0.050000, y: 0.050000, z: 0.050000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a589e5c3-a5f6-4521-b100-4165de7028df
+- !<SceneObject/9f0ca443-247b-4ce0-82e5-855e21682893>
+  PrefabRemaps:
+    []
+  Name: Magic Dew Lighting
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 65.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a7c86d29-5cdb-4ed2-ad84-dc21718b5d30
+- !<SceneObject/a2358f51-a1cf-49c2-bf0c-197dbaa2f6ac>
+  PrefabRemaps:
+    - 0d34073f-acb3-407c-97e6-bfc942b2d375: 0d34073f-acb3-407c-6819-4036bd4d2c8a
+    - 122e43b8-4ed3-4084-ac93-16bb8f5746b7: 122e43b8-4ed3-4084-536c-e94470a8b948
+    - 3ce6d8a9-5faa-4a1c-b338-00a1df2d91fb: 3ce6d8a9-5faa-4a1c-4cc7-ff5e20d26e04
+    - 65fdc2e5-9329-49dc-864e-a80ac96c73bc: 65fdc2e5-9329-49dc-79b1-57f536938c43
+    - 672edb54-48f6-4340-a169-bb1ca74adf4f: 672edb54-48f6-4340-5e96-44e358b520b0
+    - 8cf0355d-5f8c-40c6-8c98-205b864b9307: 8cf0355d-5f8c-40c6-7367-dfa479b46cf8
+    - 9f0ca443-247b-4ce0-82e5-855e21682893: 9f0ca443-247b-4ce0-7d1a-7aa1de97d76c
+    - a2358f51-a1cf-49c2-bf0c-197dbaa2f6ac: a2358f51-a1cf-49c2-40f3-e682455d0953
+    - a589e5c3-a5f6-4521-b100-4165de7028df: a589e5c3-a5f6-4521-4eff-be9a218fd720
+    - a7c86d29-5cdb-4ed2-ad84-dc21718b5d30: a7c86d29-5cdb-4ed2-527b-23de8e74a2cf
+    - e15d6ef6-2d23-4d63-83da-7a76227877ac: e15d6ef6-2d23-4d63-7c25-8589dd878853
+    - e7ca644f-a32d-496a-868d-10b73b3a17ac: e7ca644f-a32d-496a-7972-ef48c4c5e853
+  Name: Magic Dew__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9f0ca443-247b-4ce0-82e5-855e21682893
+    - !<own> 672edb54-48f6-4340-a169-bb1ca74adf4f
+  Components:
+    []
+- !<RenderMeshVisual/a589e5c3-a5f6-4521-b100-4165de7028df>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bd9b91b4-5b63-4f67-8053-39cb6f50a854
+  Mesh: !<reference> dbb77762-7542-4486-a0ff-960fa9d7f98b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<LightSource/a7c86d29-5cdb-4ed2-ad84-dc21718b5d30>
+  PrefabRemaps:
+    []
+  Name: Light source
+  Enabled: true
+  renderLayer: 786433
+  LightType: EnvMap
+  Intensity: 0.000000
+  CastShadows: false
+  ShadowDensity: 1.000000
+  ShadowBlurRadius: 4.000000
+  ShadowTextureSize: 512
+  AutoLightSourcePosition: true
+  AutoShadowFrustumSize: true
+  AutoShadowFrustumSizeExtend: 2.000000
+  ShadowFrustumSize: 100.000000
+  ShadowFrustumNearClipPlane: 1.000000
+  ShadowFrustumFarClipPlane: 1000.000000
+  UseEnvMapFromCamera: false
+  EnvMapFromCameraMode: Auto
+  EstimationSharpness: 1.000000
+  EnvMapExposure: 1.500000
+  EnvMapRotation: 120.000000
+  DiffuseEnvTexture: !<reference> 3a99a1b6-0158-49d9-bac5-bcbffd169c07
+  SpecularEnvTexture: !<reference> 4668c232-c75e-44e1-98ea-56bd53a70583
+  Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+  DynamicEnvInputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  InnerConeAngle: 0.000000
+  OuterConeAngle: 45.000000
+  DecayType: None
+  DecayLimit: false
+  DecayRange: 1.000000
+- !<RenderMeshVisual/e15d6ef6-2d23-4d63-83da-7a76227877ac>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bd9b91b4-5b63-4f67-8053-39cb6f50a854
+  Mesh: !<reference> 95ab26ee-5b67-4750-904a-6340277785d9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e7ca644f-a32d-496a-868d-10b73b3a17ac>
+  PrefabRemaps:
+    []
+  Name: Icosphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 27.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.070000, y: 0.070000, z: 0.070000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e15d6ef6-2d23-4d63-83da-7a76227877ac

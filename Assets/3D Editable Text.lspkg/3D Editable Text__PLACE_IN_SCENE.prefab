@@ -1,0 +1,58 @@
+- !<ObjectPrefab/53b05d57-ab57-4248-9496-75c1ef4a7879>
+  PackagePath: ""
+  objects:
+    - !<own> 05f1bca6-4805-419d-b214-d23c00b60f12
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/05f1bca6-4805-419d-b214-d23c00b60f12>
+  PrefabRemaps:
+    - 05f1bca6-4805-419d-b214-d23c00b60f12: 05f1bca6-4805-419d-4deb-2dc3ff49f0ed
+    - 20487660-4a8e-44f9-9097-a6bc8157ea69: 20487660-4a8e-44f9-6f68-59437ea81596
+  Name: 3D Editable Text__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 20487660-4a8e-44f9-9097-a6bc8157ea69
+- !<Text3D/20487660-4a8e-44f9-9097-a6bc8157ea69>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3d2d2761-8e7f-4d92-a26e-588fbb80dfa8
+  Text: Tap to edit!
+  Editable: true
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 200
+  ExtrusionDepth: 0.360000
+  ExtrudeDirection: Both
+  Font: !<reference> d83c6dd3-d6a0-48ab-be2a-d909ebb184a4
+  LayoutRect:
+    left: -7.000000
+    bottom: -8.000000
+    right: 7.000000
+    top: 8.000000
+  OverflowVertical: Shrink
+  OverflowHorizontal: Wrap
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: -0.020000
+    LineSpacing: 0.480000
+    CapitalizationOverride: None
+  EnableBatching: false

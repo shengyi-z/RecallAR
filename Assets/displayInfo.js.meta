@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/24fc35aa-8464-42bb-8412-8a1c302c6d3f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 20fdb992-1634-4c60-80d2-60a6d83d7b82
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 20fdb992-1634-4c60-80d2-60a6d83d7b82
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5cb8032f-54bd-428d-abf3-df63f18d8d44
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5cb8032f-54bd-428d-abf3-df63f18d8d44>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 12d164e7-b416-4842-b04c-19398476884e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cardRoot: false
+    nameText: false
+    note: false
+    noteText: false
+    personName: false
+    relation: false
+    relationText: false
+    showOnlyWhenFaceDetected: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - nameText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      relationText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      noteText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      cardRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      personName: David
+      relation: Your Son
+      note: He takes care of me a lot
+      showOnlyWhenFaceDetected: true
+  ScriptTypes:
+    -
+      {}

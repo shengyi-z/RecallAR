@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/da6d37fe-1734-d1de-7256-ffd3d0e7b816>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f8338ddc-7340-4711-ba6c-7ad1d930710f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f8338ddc-7340-4711-ba6c-7ad1d930710f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: 3sUTBsrxVUgcYYoS6JYaeN
+  AssetDataMap:
+    JavaScriptAsset: !<own> 69dde29c-07e3-40cb-9c8e-d63f1a188a37
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/69dde29c-07e3-40cb-9c8e-d63f1a188a37>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 175b206a-77a7-4737-b48f-bde949c53346
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colorToBeSet: false
+    extrusionToBeSet: false
+    text3D: false
+    textToBeSet: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - text3D: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      textToBeSet: ""
+      colorToBeSet: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      extrusionToBeSet: 0.500000
+  ScriptTypes:
+    -
+      {}

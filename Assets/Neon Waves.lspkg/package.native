@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/851dc2af-4559-499a-9a19-f4c0e27da8e0>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: "Neon Waves This material comes in the form of waves, circles or random, zigzag shapes of bright neon colors, the speed, movement and shape of the material can be controlled from the available options Learn more here"
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: b9b34109-27da-4744-960c-3160a8861379
+  ComponentUid: f743c15a-4328-459a-8f06-03da984ed205
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

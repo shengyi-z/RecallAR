@@ -1,0 +1,44 @@
+- !<ObjectPrefab/8260ab0a-4944-4156-a9cf-04ebaff03160>
+  PackagePath: ""
+  objects:
+    - !<own> 4fe47aa3-46a1-43f4-bce1-2e6ead5e75b9
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/4fe47aa3-46a1-43f4-bce1-2e6ead5e75b9>
+  PrefabRemaps:
+    - 4fe47aa3-46a1-43f4-bce1-2e6ead5e75b9: 4fe47aa3-46a1-43f4-431e-d19152a18a46
+    - e9251aa0-e88a-4810-a169-4e0cef734ff7: e9251aa0-e88a-4810-5e96-b1f3108cb008
+  Name: Main Controller
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e9251aa0-e88a-4810-a169-4e0cef734ff7
+- !<ScriptComponent/e9251aa0-e88a-4810-a169-4e0cef734ff7>
+  PrefabRemaps:
+    []
+  Name: LensController 2
+  Enabled: true
+  ScriptAsset: !<reference> 14a395e7-a48b-4ba8-a76f-35962e22635f
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      faceEvents_debug: !<reference.ScriptComponent> 9e4812c6-2b71-4545-8c32-1bf864bb89f5
+      faceStatusText: !<reference.ScriptComponent> 4c94579c-8c51-4f96-9d90-b0f505ee5f47
+      pip_faceCropPreview: !<reference.ScriptComponent> 91889031-f887-41da-9dd7-e0cf5885d9fa
+      selfieWidget_debug: !<reference.ScriptComponent> df09d0ee-ed0d-4b53-a7d7-f5452273ff6e
+      debug_texture_store: !<reference.ScriptComponent> ec354116-06b7-4e85-99d1-74415271515c
+      spriteManager: !<reference.ScriptComponent> 271a9ca2-443c-49d7-aedd-429bd6632869
+      canvasApi_debug: !<reference.ScriptComponent> c56c5ffe-f0e8-4c69-9933-03f1d6edf23c
+  ScriptTypes:
+    "":
+      {}

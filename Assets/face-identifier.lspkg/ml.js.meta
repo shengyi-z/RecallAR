@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/06734e55-8de6-0ea7-ccd1-d9a2e4b24c72>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 85fba6d8-6d12-425e-9f98-145c97371f47
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 85fba6d8-6d12-425e-9f98-145c97371f47
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a90cf2df-6511-4322-a566-fcc0ed2c7515
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a90cf2df-6511-4322-a566-fcc0ed2c7515>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8b53ae23-0801-43e0-adeb-866636f37732
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cleoAudio: false
+    ml: false
+    sabrinaAudio: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ml: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      sabrinaAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      cleoAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

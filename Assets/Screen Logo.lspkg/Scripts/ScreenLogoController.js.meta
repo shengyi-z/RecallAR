@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/38e1feda-db37-e656-5e94-c021efaa45c5>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 1c777a12-2a33-431d-93ba-422add44e433
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 1c777a12-2a33-431d-93ba-422add44e433
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: SkFNd6E6kLqxmaSPYRwem
+  AssetDataMap:
+    JavaScriptAsset: !<own> 41ca89e7-0910-488c-8405-aaceae2e7690
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/41ca89e7-0910-488c-8405-aaceae2e7690>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1dcd85e3-dd9f-4a80-a4c1-5b9e355a284a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    advanced: false
+    logoAlpha: false
+    logoOffsetX: false
+    logoOffsetY: false
+    logoPosition: false
+    logoSize: false
+    screenLogo: false
+    teamLogo: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - teamLogo: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      logoPosition: 2
+      logoAlpha: 0.800000
+      logoSize: 0.300000
+      logoOffsetX: !<float> 0.000000
+      logoOffsetY: !<float> 0.000000
+      advanced: false
+      screenLogo: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

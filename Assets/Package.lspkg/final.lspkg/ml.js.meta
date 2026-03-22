@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/446e83e9-313a-0a38-685a-da0419935ebb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 31b7f3d3-8532-4c8b-893f-4ad3f3d41dd5
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 31b7f3d3-8532-4c8b-893f-4ad3f3d41dd5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3ee1399e-5e71-42b3-be2a-1956f1c6edc0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/3ee1399e-5e71-42b3-be2a-1956f1c6edc0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8b53ae23-0801-43e0-adeb-866636f37732
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    cleoAudio: false
+    infoCrad: false
+    ml: false
+    nameText: false
+    noteText: false
+    relationText: false
+    sabrinaAudio: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ml: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
+      nameText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      relationText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      noteText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
+      infoCrad: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      sabrinaAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      cleoAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

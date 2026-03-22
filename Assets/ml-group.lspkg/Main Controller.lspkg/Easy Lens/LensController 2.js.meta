@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/cad3d5f8-0df2-5af5-47e8-9eddc1715a89>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 851c7294-c86a-44d4-967a-ba8eab9ac3c4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 851c7294-c86a-44d4-967a-ba8eab9ac3c4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5d9603ec-d8b1-4c10-96f6-4c9c91fd9cae
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/5d9603ec-d8b1-4c10-96f6-4c9c91fd9cae>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 409a52fb-1bd4-4963-93f4-861d673adb21
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    canvasApi_debug: false
+    debug_texture_store: false
+    faceEvents_debug: false
+    faceStatusText: false
+    pip_faceCropPreview: false
+    selfieWidget_debug: false
+    spriteManager: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - faceEvents_debug: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      faceStatusText: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      pip_faceCropPreview: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      selfieWidget_debug: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      debug_texture_store: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      spriteManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      canvasApi_debug: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

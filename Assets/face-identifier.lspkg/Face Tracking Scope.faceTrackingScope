@@ -1,0 +1,4 @@
+- !<FaceTrackingScope/12c7f858-7b85-4c31-a980-75c1af2cfa7a>
+  PackagePath: ""
+  FaceIndex: 0
+  ParentScope: !<reference> 00000000-0000-0000-0000-000000000000

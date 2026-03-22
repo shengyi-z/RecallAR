@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/6ec5b341-1f7d-4895-a0a9-6b691dba1fe2>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Edit 3D Text with keyboard
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: fd6cfd54-fe21-4714-a5b0-2be54543bd7b
+  ComponentUid: 341db616-ee27-44bd-8ff8-e55e4124faf4
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

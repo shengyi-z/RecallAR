@@ -1,8 +1,8 @@
-- !<AssetImportMetadata/f9845d3d-a3e2-4744-93ed-2ef849436364>
+- !<AssetImportMetadata/6826ee5d-61d2-4ee7-b151-3bbfb8aad134>
   ImportedAssetIds:
-    RemoteServiceModule: !<reference> 8ba8fd1c-3050-4008-a028-c6dfa0bc4169
+    RemoteServiceModule: !<reference> e88e7fd2-c9bf-4bfc-8672-6b2f91bf213e
   ImporterName: RemoteServiceModuleImporter
-  PrimaryAsset: !<reference> 8ba8fd1c-3050-4008-a028-c6dfa0bc4169
+  PrimaryAsset: !<reference> e88e7fd2-c9bf-4bfc-8672-6b2f91bf213e
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:

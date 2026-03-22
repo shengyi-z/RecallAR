@@ -3,9 +3,6 @@
   objects:
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
-    - !<own> 36d03e9a-14d7-4bad-a0fa-be8cb975b959
-    - !<own> b3961d7a-af91-462a-8b77-8e64aa5cadfd
-    - !<own> 0d9d695f-95ac-4a8d-8183-ebf32718c061
     - !<own> f65cd20c-c415-489e-9a1c-f5f9a51f63d6
     - !<own> 73a44c03-cccd-487d-a669-43d1335fd63a
     - !<own> 460ccfd2-ec8e-489b-90bf-c9bf4b831652
@@ -51,6 +48,61 @@
         name: Layer 8
         color: 7
 
+      - |
+        id: 10
+        name: Layer 9
+        color: 8
+
+      - |
+        id: 5
+        name: Layer 10
+        color: 9
+
+      - |
+        id: 1
+        name: Layer 11
+        color: 10
+
+      - |
+        id: 2
+        name: Layer 12
+        color: 11
+
+      - |
+        id: 3
+        name: Layer 13
+        color: 12
+
+      - |
+        id: 8
+        name: Layer 14
+        color: 13
+
+      - |
+        id: 11
+        name: Layer 15
+        color: 14
+
+      - |
+        id: 14
+        name: Layer 16
+        color: 15
+
+      - |
+        id: 15
+        name: Layer 17
+        color: 16
+
+      - |
+        id: 16
+        name: Layer 18
+        color: 17
+
+      - |
+        id: 17
+        name: Layer 19
+        color: 18
+
     HasOrtho: true
   RenderOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
   RenderPreviewOutput: !<reference> 923415f5-4245-4675-ade1-6d69d6d23e71
@@ -79,7 +131,7 @@
     []
   Name: Camera
   Enabled: true
-  renderLayer: 1
+  renderLayer: 1835007
   MipmapLevel: 0
   RenderOrder: 0
   Size: 20.000000
@@ -282,21 +334,6 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
-- !<SceneObject/0d9d695f-95ac-4a8d-8183-ebf32718c061>
-  PrefabRemaps:
-    []
-  Name: faceDescriptor
-  Enabled: false
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> f2570e30-9da9-402e-a016-a381cd063433
 - !<RenderMeshVisual/0e10306f-6970-47c9-bf7d-9e0b57a70091>
   PrefabRemaps:
     []
@@ -348,22 +385,6 @@
     []
   Components:
     - !<own> bc2bd061-b000-48c8-900f-ff9ef6985405
-- !<ScriptComponent/1d0ad3bf-ed1d-4125-9914-01f19bd948eb>
-  PrefabRemaps:
-    []
-  Name: SnapchatPlacesAPI
-  Enabled: true
-  ScriptAsset: !<reference> d934191d-bfdc-42c8-9555-f7ceeac4657c
-  ScriptInputsDefault:
-    remoteServiceModule: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      remoteServiceModule: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/21991b8d-2058-41b1-adb2-3374c5e3e737>
   PrefabRemaps:
     []
@@ -383,7 +404,7 @@
   PrefabRemaps:
     []
   Name: FaceTracker 1
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -483,21 +504,6 @@
     []
   Components:
     - !<own> af74554b-15ab-4b15-ae72-84fc963a1ee2
-- !<SceneObject/36d03e9a-14d7-4bad-a0fa-be8cb975b959>
-  PrefabRemaps:
-    []
-  Name: SnapchatPlacesAPI
-  Enabled: false
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 1d0ad3bf-ed1d-4125-9914-01f19bd948eb
 - !<SceneObject/388fd8b3-27ed-4e39-8ccd-ae9deea43730>
   PrefabRemaps:
     []
@@ -547,7 +553,7 @@
   PrefabRemaps:
     []
   Name: displayInfo
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -633,10 +639,10 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 54
   ExtrusionDepth: 0.400000
   ExtrudeDirection: Both
-  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  Font: !<reference> d83c6dd3-d6a0-48ab-be2a-d909ebb184a4
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -663,7 +669,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> d40540ad-17f7-4119-8c9c-25674b7abd37
+    - !<reference> 76f27019-5716-426f-90f1-c51581549953
   Mesh: !<reference> 83242991-8d4d-4a2d-a896-8f6be28294c6
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
@@ -687,22 +693,6 @@
       - 0.000000
       - 0.000000
   TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
-- !<ScriptComponent/709b5679-bcd5-4ba4-b150-975adbfb29ea>
-  PrefabRemaps:
-    []
-  Name: Snapchat Places API API
-  Enabled: true
-  ScriptAsset: !<reference> 20b2b4eb-b8f8-4f51-ac7b-d537ce969dc1
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      remoteServiceModule: !<reference.RemoteServiceModule> 8ba8fd1c-3050-4008-a028-c6dfa0bc4169
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/70c65988-c5ea-4c66-82e4-051af392d74c>
   PrefabRemaps:
     []
@@ -808,9 +798,9 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 30.000000, z: 2.000000}
+    Position: {x: 0.000000, y: 29.000000, z: 2.000000}
     Rotation: {x: 90.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 30.000000, y: 10.000000, z: 20.000000}
+    Scale: {x: 40.000000, y: 10.000000, z: 15.000000}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -1947,7 +1937,7 @@
   FontSize: 57
   ExtrusionDepth: 0.400000
   ExtrudeDirection: Both
-  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  Font: !<reference> d83c6dd3-d6a0-48ab-be2a-d909ebb184a4
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -2033,7 +2023,7 @@
   PrefabRemaps:
     []
   Name: Head Binding 1
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2080,21 +2070,6 @@
     LineSpacing: 1.000000
     CapitalizationOverride: None
   EnableBatching: false
-- !<SceneObject/b3961d7a-af91-462a-8b77-8e64aa5cadfd>
-  PrefabRemaps:
-    []
-  Name: Snapchat Places API API
-  Enabled: false
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 709b5679-bcd5-4ba4-b150-975adbfb29ea
 - !<AudioComponent/b57cded6-ac78-4800-b84c-a71c58d0feae>
   PrefabRemaps:
     []
@@ -2116,7 +2091,7 @@
   PrefabRemaps:
     []
   Name: displayInfo
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2219,10 +2194,10 @@
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
   SizeToFit: false
-  FontSize: 48
+  FontSize: 54
   ExtrusionDepth: 0.400000
   ExtrudeDirection: Both
-  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  Font: !<reference> d83c6dd3-d6a0-48ab-be2a-d909ebb184a4
   LayoutRect:
     left: -7.500000
     bottom: -2.250000
@@ -2657,7 +2632,7 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 33.000000, z: 2.000000}
+    Position: {x: 0.000000, y: 32.000000, z: 2.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 3.000000, y: 3.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
@@ -2684,30 +2659,6 @@
       infoCrad: !<reference.SceneObject> b825e766-ddff-4d33-9793-f0bad6b2eaf3
       sabrinaAudio: !<reference.AudioComponent> b57cded6-ac78-4800-b84c-a71c58d0feae
       cleoAudio: !<reference.AudioComponent> 0a425df5-93f1-4fe9-94fa-c280f018247b
-  ScriptTypes:
-    "":
-      {}
-- !<ScriptComponent/f2570e30-9da9-402e-a016-a381cd063433>
-  PrefabRemaps:
-    []
-  Name: faceDescriptor
-  Enabled: true
-  ScriptAsset: !<reference> 4cddf085-c72d-4e47-a3ea-373726fce73d
-  ScriptInputsDefault:
-    mlComponent: true
-    nameText: true
-    infoCrad: true
-    registerMode: true
-    registerName: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      mlComponent: !<reference.MLComponent> 00000000-0000-0000-0000-000000000000
-      nameText: !<reference.Text3D> 00000000-0000-0000-0000-000000000000
-      infoCrad: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      registerMode: false
-      registerName: David
   ScriptTypes:
     "":
       {}

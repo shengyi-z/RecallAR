@@ -1,41 +1,85 @@
 // SnapchatPlacesAPI.js
-// @input Component.ScriptComponent remoteServiceModule
+// @input Component.ScriptComponent placesModule
+// @input Component.Text handLabel
 
-script.createEvent("OnStartEvent").bind(function () {
-    if (!script.remoteServiceModule) {
-        print("ERROR: drag the Snapchat Places API object into remoteServiceModule slot");
-        return;
+print("=== SnapchatPlacesAPI started ===");
+
+var done = false;
+
+script.createEvent("OnStartEvent").bind(function() {
+  print("=== OnStartEvent fired ===");
+
+  if (!script.handLabel) {
+    print("ERROR: handLabel not set");
+    return;
+  }
+
+  if (!script.placesModule) {
+    print("ERROR: placesModule not set");
+    script.handLabel.text = "No API";
+    return;
+  }
+
+  script.handLabel.text = "Getting location...";
+
+  var rsm = script.placesModule.remoteServiceModule;
+  var req = global.RemoteApiRequest.create();
+  req.endpoint = "get_nearby_places";
+  req.body = '{"lat":45.4732,"lng":-73.6009,"gps_accuracy_m":65.0}';
+
+  print("Calling Places API...");
+
+  rsm.subscribeApiRequest(req, function(response) {
+    print("Status: " + response.statusCode);
+
+    if (response.statusCode !== 1) {
+      script.handLabel.text = "Location unavailable";
+      print("Error: " + response.body);
+      return;
     }
 
-    var rsm = script.remoteServiceModule.getRemoteServiceModule();
+    try {
+      var data   = JSON.parse(response.body);
+      var all    = data.nearbyPlaces || [];
 
-    var request = RemoteServiceHttpRequest.create();
-    request.endpoint = "nearbyPlaces";
+      var venues = all.filter(function(p) {
+        return p.placeTypeEnum === "VENUE";
+      });
 
-    print("Calling Snapchat Places API...");
+      print("=== " + venues.length + " VENUES NEARBY ===");
+      for (var i = 0; i < venues.length; i++) {
+        print("[" + i + "] " + venues[i].name + " — " + venues[i].categoryName);
+      }
 
-    rsm.performHttpRequest(request, function (response) {
-        print("Status code: " + response.statusCode);
-        print("Raw response: " + response.body);
+      // Current location = top venue
+      var current = venues.length > 0
+        ? venues[0].name + ", " + venues[0].subtitle
+        : "Unknown location";
 
-        if (response.statusCode !== 200) {
-            print("ERROR: Request failed with code " + response.statusCode);
-            return;
-        }
+      // Nearby = next 2 venues
+      var nearby = [];
+      for (var i = 1; i < Math.min(3, venues.length); i++) {
+        nearby.push("- " + venues[i].name);
+      }
+      var nearbyText = nearby.length > 0
+        ? nearby.join("\n")
+        : "- No venues nearby";
 
-        try {
-            var data = JSON.parse(response.body);
-            var places = data.results || data.venues || data.places || [];
+      script.handLabel.text =
+        "You are currently at:\n" +
+        current + "\n" +
+        "\n" +
+        "Nearby places:\n" +
+        nearbyText + "\n" +
+        "\n" +
+        "Sending location to\n" +
+        "emergency contacts...\n";
 
-            print("=== NEARBY PLACES (" + places.length + " found) ===");
-            for (var i = 0; i < places.length; i++) {
-                var p = places[i];
-                print("[" + i + "] " + JSON.stringify(p));
-            }
-            print("=== END ===");
+      print("Hand card updated — at: " + current);
 
-        } catch (e) {
-            print("Parse error: " + e);
-        }
-    });
+    } catch(e) {
+      script.handLabel.text = "Error loading places";
+      print("Parse error: " + e);
+    }
+  });
 });

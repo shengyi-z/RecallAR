@@ -18,3 +18,7 @@ Workspaces/**
 # Shipped by Lens Studio
 
 sample-code
+
+# RecallAR — private data, do not upload
+RecallAR/photo/
+RecallAR/outputs/

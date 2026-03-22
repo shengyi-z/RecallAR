@@ -1,0 +1,10 @@
+# Private photos — never commit
+photo/
+
+# Generated outputs (embeddings, exported models)
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/

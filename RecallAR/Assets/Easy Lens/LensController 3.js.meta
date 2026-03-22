@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/86aa1589-cdae-482c-a7b0-9782ffd20ead>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 998fcf7f-02a8-41e8-8077-256198ea3ae8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 998fcf7f-02a8-41e8-8077-256198ea3ae8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6385bf42-530c-45ca-bafd-b8f67059f041
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6385bf42-530c-45ca-bafd-b8f67059f041>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ff8acb6b-e3c7-4315-94e1-8bd9b50b2087
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    face_landmarks: false
+    face_shadow_canvas: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - face_shadow_canvas: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      face_landmarks: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

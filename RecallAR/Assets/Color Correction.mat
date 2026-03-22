@@ -1,0 +1,79 @@
+- !<Material/214d2108-c569-457f-83c1-9414a2012968>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> e47a9fdf-d7c9-4dc0-b7f6-663eb5247764
+- !<PassInfo/e47a9fdf-d7c9-4dc0-b7f6-663eb5247764>
+  CachedProperties:
+    - Port_Input1_N105:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N129:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Item0_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item1_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item2_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item3_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item4_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item5_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item6_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - Port_Item7_N124:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - screenTexture:
+        typeIdx: 9
+        value:
+          id: 67932494-aecb-4174-8851-076168bb98ed
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: ClampToEdge
+            wrapModeV: ClampToEdge
+            wrapModeW: ClampToEdge
+            borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+            mipmaps: false
+          type: Texture2D
+    - screenTextureSize:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - screenTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - strength:
+        typeIdx: 1
+        value: 1.000000
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    {}
+  Pass: !<reference> 330969f6-42e6-4056-890b-d426ece84cb1

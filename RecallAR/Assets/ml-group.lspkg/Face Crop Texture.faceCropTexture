@@ -1,0 +1,7 @@
+- !<FaceCropTexture/a19b865a-fa3b-484f-be33-88586effe67b>
+  PackagePath: ""
+  InputTexture: !<reference> ae957016-7233-42ff-929f-71172dc14f5e
+  Scale: {x: 112.000000, y: 112.000000}
+  FaceIndex: 0
+  FaceCenterMouthWeight: 0.100000
+  TrackingScope: !<reference> 4309a876-f6e4-4310-b298-1d98d4fc9348

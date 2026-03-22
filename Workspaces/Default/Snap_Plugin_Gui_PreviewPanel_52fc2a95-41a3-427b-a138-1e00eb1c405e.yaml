@@ -20,7 +20,7 @@ frameRate:
   options: 4
 frontCameraMultimedia:
   type: string
-  value: PreviewResources.bundle/Video/World Tracking/Indoor.mp4
+  value: PreviewResources.bundle/Images/Idle/Person 6.jpg
   options: 4
 fullscreenSpectaclesSimulation:
   type: bool
@@ -40,7 +40,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: InteractiveResources.bundle/Scenes/Sunlit Room
+  value: PreviewResources.bundle/Images/Idle/Person 6.jpg
   options: 4
 previewTarget:
   type: int
@@ -48,7 +48,7 @@ previewTarget:
   options: 4
 previewType:
   type: string
-  value: Interactive
+  value: Multimedia
   options: 4
 recordInput:
   type: bool

@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/4537c302-79d3-42c2-8ce3-226b42f05d3e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> caaad000-78c4-4644-90a7-d42941428d73
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> caaad000-78c4-4644-90a7-d42941428d73
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b30e8601-14ef-4a65-ac5a-05212da0b92f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/b30e8601-14ef-4a65-ac5a-05212da0b92f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 03609cb7-6923-40cf-ac9e-658953c04ee3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    apiClient: false
+    deviceCameraTexture: false
+    headBinding: false
+    labelController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - apiClient: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      labelController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      headBinding: !<reference.Head> 00000000-0000-0000-0000-000000000000
+      deviceCameraTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

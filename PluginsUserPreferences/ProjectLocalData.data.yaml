@@ -1,3 +1,8 @@
 data:
   externalSources:
-    []
+    - 4537c302-79d3-42c2-8ce3-226b42f05d3e: /Users/tt/Documents/LifeHelper/Scripts/Managers/FaceRecognitionManager.js
+    - 67cb35f3-4eb3-4d61-ab05-9bf45668b2cf: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/OccluderMaterial/Resources/occluder.ss_graph
+    - 7a2cde65-b176-4043-b9c2-97ba4a7ced34: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Text3DMaterial/Resources/text_3d.ss_graph
+    - 847c0729-8968-4cba-b461-9ebe26169135: /Users/tt/Documents/LifeHelper/Scripts/Network/APIClient.js
+    - cac83f70-4c79-464f-9e84-c0f2c17dea4b: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Head.mesh
+    - dbb722ec-360a-4edf-9447-3df848e245b1: /Users/tt/Documents/LifeHelper/Scripts/UI/LabelController.js

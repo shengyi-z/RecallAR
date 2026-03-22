@@ -1,8 +1,17 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 564
+    size: 581
     values:
+      - ""
+      - APIClient.js
+      - Echopark.hdr
+      - FaceRecognitionManager.js
+      - Head.mesh
+      - LabelController.js
+      - NameText.prefab
+      - Occluder 2.mat
+      - Occluder.mat
       - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/Assets
       - SpectaclesInteractionKit.lspkg/Assets/Audio
@@ -567,4 +576,12 @@ CollapsedEntities:
       - SpectaclesUIKit.lspkg/Textures/test-image.jpg
       - SpectaclesUIKit.lspkg/package.native
       - SpectaclesUIKit.lspkg/package_dependencies.json
+      - Text3D 2.mat
+      - Text3D 3.mat
+      - Text3D 4.mat
+      - Text3D 5.mat
+      - Text3D 6.mat
+      - Text3D.mat
+      - occluder.ss_graph
+      - text_3d.ss_graph
   options: 4

@@ -1,0 +1,72 @@
+- !<AssetImportMetadata/fb829309-5b1f-4c97-b56c-ffd7b1aaf1bd>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> b07ee6ad-8eee-4768-8ae6-741c4f1794e9
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> b07ee6ad-8eee-4768-8ae6-741c4f1794e9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> ca4278c9-9951-4a90-b68b-3bbef66c025e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8e528852-e5e3-41b4-67ac-02c61e541e6a>
+  PrefabRemaps:
+    []
+  Name: NameText
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 20.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ea1e8070-ef6e-47e2-4525-8c616e1b01f5
+- !<ObjectPrefabAssetData/ca4278c9-9951-4a90-b68b-3bbef66c025e>
+  Prototype: !<ObjectOwner/d3dfaa77-fbdb-4efa-9dee-e40545154052>
+    PackagePath: ""
+    objects:
+      - !<own> 8e528852-e5e3-41b4-67ac-02c61e541e6a
+- !<Text3D/ea1e8070-ef6e-47e2-4525-8c616e1b01f5>
+  PrefabRemaps:
+    []
+  Name: Text3D
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6a057629-45d3-4d01-89da-6e6586b2a5ab
+  Text: 3D Text
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  ExtrusionDepth: 0.400000
+  ExtrudeDirection: Both
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  EnableBatching: false

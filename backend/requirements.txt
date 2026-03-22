@@ -1,4 +1,5 @@
-flask
-face_recognition
+Flask>=3.0.0
+Pillow>=10.0.0
+insightface>=0.7.3
+onnxruntime
 numpy
-opencv-python

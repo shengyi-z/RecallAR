@@ -12,7 +12,6 @@ function show(name, relationship) {
         // Ensure inputs are strings
         var nameStr = "" + (name || "Unknown");
         script.nameText.text = nameStr;
-        script.nameText.enabled = true;  // Make sure it's visible
         print("LabelController: Set nameText to '" + nameStr + "'");
     } else {
         print("LabelController: WARNING - nameText is not linked!");
@@ -21,7 +20,6 @@ function show(name, relationship) {
     if (script.relationText) {
         var relationStr = "" + (relationship || "");
         script.relationText.text = relationStr;
-        script.relationText.enabled = true;  // Make sure it's visible
         print("LabelController: Set relationText to '" + relationStr + "'");
     } else {
         print("LabelController: WARNING - relationText is not linked!");
@@ -39,17 +37,9 @@ function show(name, relationship) {
 }
 
 function hide() {
-    if (script.nameText) {
-        script.nameText.text = "";
-        script.nameText.enabled = false;
-    }
-    if (script.relationText) {
-        script.relationText.text = "";
-        script.relationText.enabled = false;
-    }
-    if (script.backgroundObj) {
-        script.backgroundObj.enabled = false;
-    }
+    if (script.nameText) script.nameText.text = "";
+    if (script.relationText) script.relationText.text = "";
+    if (script.backgroundObj) script.backgroundObj.enabled = false;
 }
 
 script.show = show;

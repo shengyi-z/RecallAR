@@ -1,56 +1,75 @@
-import face_recognition
 import json
 import os
 import sys
 import numpy as np
+from insightface.app import FaceAnalysis
+from PIL import Image
 
 # Usage: python register_face.py <name> <relation> <image_path>
 
 REGISTRY_PATH = os.path.join(os.path.dirname(__file__), 'data', 'registry.json')
 
 def register_face(name, relation, image_path):
-    print(f"Processing {image_path} for {name} ({relation})...")
+    # Verify file exists
+    if not os.path.exists(image_path):
+        print(f"Error: Image file not found at {image_path}")
+        return
+
+    # Convert to absolute path to ensure backend can find it
+    abs_path = os.path.abspath(image_path)
     
-    try:
-        image = face_recognition.load_image_file(image_path)
-        encodings = face_recognition.face_encodings(image)
+    print(f"Processing {abs_path} for {name} ({relation})...")
+    
+    # Initialize InsightFace
+    print("Loading InsightFace model...")
+    app = FaceAnalysis(name='buffalo_l', providers=['CPUExecutionProvider'])
+    app.prepare(ctx_id=-1, det_size=(640, 640))
+    
+    # Load and process image
+    img = Image.open(abs_path).convert('RGB')
+    img_array = np.array(img)
+    
+    # Detect faces
+    faces = app.get(img_array)
+    
+    if len(faces) == 0:
+        print(f"Error: No face detected in {abs_path}")
+        return
+    
+    # Use the first (largest) face
+    face = faces[0]
+    encoding = face.embedding
+    
+    print(f"Face detected! Embedding size: {encoding.shape}")
+    
+    new_entry = {
+        "id": f"{name}_{relation}", 
+        "name": name,
+        "relation": relation,
+        "image_path": abs_path,
+        "encoding": encoding.tolist()  # Convert numpy array to list for JSON
+    }
+    
+    # Load existing
+    registry = []
+    if os.path.exists(REGISTRY_PATH):
+        with open(REGISTRY_PATH, 'r') as f:
+            try:
+                registry = json.load(f)
+            except json.JSONDecodeError:
+                registry = []
+    
+    # Check for duplicates (simple name check)
+    # Remove existing entry with same name if any
+    registry = [p for p in registry if p['name'] != name]
+    
+    registry.append(new_entry)
+    
+    # Save
+    with open(REGISTRY_PATH, 'w') as f:
+        json.dump(registry, f, indent=4)
         
-        if not encodings:
-            print("Error: No face found in the image.")
-            return
-            
-        # Use the first face found
-        encoding = encodings[0].tolist()
-        
-        new_entry = {
-            "id": f"{name}_{relation}", # Simple ID generation
-            "name": name,
-            "relation": relation,
-            "encoding": encoding
-        }
-        
-        # Load existing
-        if os.path.exists(REGISTRY_PATH):
-            with open(REGISTRY_PATH, 'r') as f:
-                try:
-                    registry = json.load(f)
-                except json.JSONDecodeError:
-                    registry = []
-        else:
-            registry = []
-            
-        # Check for duplicates (simple name check)
-        # In a real app, you might update existing entries
-        registry.append(new_entry)
-        
-        # Save
-        with open(REGISTRY_PATH, 'w') as f:
-            json.dump(registry, f, indent=4)
-            
-        print(f"Successfully registered {name}!")
-        
-    except Exception as e:
-        print(f"Error: {e}")
+    print(f"Successfully registered {name}! (Computed face embedding)")
 
 if __name__ == "__main__":
     if len(sys.argv) < 4:

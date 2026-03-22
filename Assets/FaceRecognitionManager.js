@@ -46,22 +46,12 @@ updateEvent.bind(function() {
     }
 
     // 1. Check if face is tracked using Head Binding component
-    var wasTracking = isFaceTracked;
-    
     if (script.headBinding) {
-        // Check if the Head Binding's scene object is enabled (indicates face is tracked)
-        var headSceneObj = script.headBinding.getSceneObject();
-        isFaceTracked = headSceneObj && headSceneObj.enabled;
-        
-        // Log tracking state changes
-        if (isFaceTracked && !wasTracking) {
-            print("Manager: Face detected!");
-        } else if (!isFaceTracked && wasTracking) {
-            print("Manager: Face lost!");
-        }
+        // Head component doesn't have isTracking(), check if it's enabled and attached
+        var headTransform = script.headBinding.getTransform();
+        isFaceTracked = (headTransform && script.headBinding.getSceneObject().enabled);
     } else {
-        // If no Head Binding linked, assume always tracking
-        print("Manager: WARNING - No Head Binding linked, assuming face always tracked");
+        // If no Head Binding, assume always tracking (for testing)
         isFaceTracked = true;
     }
     
@@ -71,7 +61,7 @@ updateEvent.bind(function() {
         }
         // Clear cache when no face is tracked
         cachedResult = null;
-        return;  // STOP HERE - don't do anything if no face
+        return;
     }
 
     // 2. Check Cache
@@ -116,7 +106,7 @@ function performRecognition(currentTimeMs) {
                 print("Manager: Failed to encode texture (retrying...)");
                 isRequesting = false; // Will retry on next Update loop
             },
-            CompressionQuality.LowQuality,  // Use low quality for faster encoding
+            CompressionQuality.HighQuality,
             EncodingType.Jpg
         );
     } catch (e) {

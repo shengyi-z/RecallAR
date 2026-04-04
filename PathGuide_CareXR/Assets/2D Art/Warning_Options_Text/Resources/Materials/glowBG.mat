@@ -7,6 +7,9 @@
     - Port_Default_N204:
         typeIdx: 1
         value: 1.000000
+    - Port_Default_N369:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Depth_N004:
         typeIdx: 1
         value: 1.000000
@@ -64,6 +67,27 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - baseColor:
+        typeIdx: 5
+        value: {x: 0.156863, y: 0.847059, z: 1.000000, w: 1.000000}
+    - opacityMul:
+        typeIdx: 1
+        value: 1.000000
+    - opacityTex:
+        typeIdx: 9
+        value:
+          id: 478a7893-a41b-41a4-8e84-f00c7ef42d91
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - opacityTexBorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -106,28 +130,5 @@
     - NODE_69_DROPLIST_ITEM 0
   BlendMode: PremultipliedAlphaAuto
   Properties:
-    Port_Default_N369:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    baseColor:
-      typeIdx: 5
-      value: {x: 0.156863, y: 0.847059, z: 1.000000, w: 1.000000}
-    opacityMul:
-      typeIdx: 1
-      value: 1.000000
-    opacityTex:
-      typeIdx: 9
-      value:
-        id: 478a7893-a41b-41a4-8e84-f00c7ef42d91
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: Repeat
-          wrapModeV: Repeat
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
+    {}
   Pass: !<reference> 15b618cd-ab43-4216-a4dd-a2fdcef300fc

@@ -4,6 +4,12 @@
     - !<own> e0bf7a11-798f-4674-94aa-3558ad86ee12
 - !<PassInfo/e0bf7a11-798f-4674-94aa-3558ad86ee12>
   CachedProperties:
+    - Port_Center_N009:
+        typeIdx: 3
+        value: {x: 0.500000, y: 0.500000}
+    - Port_Center_N014:
+        typeIdx: 3
+        value: {x: 0.500000, y: 0.500000}
     - Port_CoordsIn_N009:
         typeIdx: 3
         value: {x: 0.000000, y: 0.000000}
@@ -22,12 +28,42 @@
     - Port_GSplatPointSize_N004:
         typeIdx: 1
         value: 0.000000
+    - Port_Input1_N013:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N013:
+        typeIdx: 1
+        value: 1.000000
     - Port_LODValue_N000:
         typeIdx: 1
         value: 0.000000
     - Port_LODValue_N023:
         typeIdx: 1
         value: 0.000000
+    - Port_RangeMaxA_N016:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RangeMaxA_N017:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RangeMaxB_N016:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RangeMaxB_N017:
+        typeIdx: 1
+        value: 1.000000
+    - Port_RangeMinA_N016:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RangeMinA_N017:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RangeMinB_N016:
+        typeIdx: 1
+        value: 1.150000
+    - Port_RangeMinB_N017:
+        typeIdx: 1
+        value: 0.700000
     - Port_RayDirection_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 1.000000, z: 0.000000}
@@ -82,33 +118,84 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
     - Tweak_N10:
         typeIdx: 3
         value: {x: 1.000000, y: 1.000000}
+    - baseTex:
+        typeIdx: 9
+        value:
+          id: d7e01419-ace8-4438-b314-6634ec48c58d
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: ClampToEdge
+            wrapModeV: ClampToEdge
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - baseTexBorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - baseTexDims:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseTexTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
     - baseTexUvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - globalOpacity:
+        typeIdx: 1
+        value: 1.000000
+    - hover:
+        typeIdx: 1
+        value: 0.000000
     - icon:
         typeIdx: 0
         value: 0
     - iconColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - strokeColor:
+        typeIdx: 5
+        value: {x: 0.215686, y: 0.709804, z: 1.000000, w: 1.000000}
+    - text:
+        typeIdx: 9
+        value:
+          id: 94a3a1c0-bc94-4ca0-a780-5ba6f63a6de5
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: ClampToEdge
+            wrapModeV: ClampToEdge
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - textBorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - textDims:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - textTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
     - textUVOffset:
         typeIdx: 3
         value: {x: 1.000000, y: 1.000000}
+    - textUVScale:
+        typeIdx: 3
+        value: {x: 2.000000, y: 2.500000}
     - textUvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -126,91 +213,5 @@
     []
   BlendMode: PremultipliedAlphaAuto
   Properties:
-    Port_Center_N009:
-      typeIdx: 3
-      value: {x: 0.500000, y: 0.500000}
-    Port_Center_N014:
-      typeIdx: 3
-      value: {x: 0.500000, y: 0.500000}
-    Port_Input1_N013:
-      typeIdx: 1
-      value: 0.000000
-    Port_Input2_N013:
-      typeIdx: 1
-      value: 1.000000
-    Port_RangeMaxA_N016:
-      typeIdx: 1
-      value: 1.000000
-    Port_RangeMaxA_N017:
-      typeIdx: 1
-      value: 1.000000
-    Port_RangeMaxB_N016:
-      typeIdx: 1
-      value: 1.000000
-    Port_RangeMaxB_N017:
-      typeIdx: 1
-      value: 1.000000
-    Port_RangeMinA_N016:
-      typeIdx: 1
-      value: 0.000000
-    Port_RangeMinA_N017:
-      typeIdx: 1
-      value: 0.000000
-    Port_RangeMinB_N016:
-      typeIdx: 1
-      value: 1.150000
-    Port_RangeMinB_N017:
-      typeIdx: 1
-      value: 0.700000
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    baseTex:
-      typeIdx: 9
-      value:
-        id: d7e01419-ace8-4438-b314-6634ec48c58d
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: ClampToEdge
-          wrapModeV: ClampToEdge
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
-    baseTexTransform:
-      typeIdx: 7
-      value:
-        0: {x: 1.000000, y: 0.000000, z: 0.000000}
-        1: {x: 0.000000, y: 1.000000, z: 0.000000}
-        2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    globalOpacity:
-      typeIdx: 1
-      value: 1.000000
-    hover:
-      typeIdx: 1
-      value: 0.000000
-    strokeColor:
-      typeIdx: 5
-      value: {x: 0.215686, y: 0.709804, z: 1.000000, w: 1.000000}
-    text:
-      typeIdx: 9
-      value:
-        id: 94a3a1c0-bc94-4ca0-a780-5ba6f63a6de5
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: ClampToEdge
-          wrapModeV: ClampToEdge
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
-    textTransform:
-      typeIdx: 7
-      value:
-        0: {x: 1.000000, y: 0.000000, z: 0.000000}
-        1: {x: 0.000000, y: 1.000000, z: 0.000000}
-        2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    textUVScale:
-      typeIdx: 3
-      value: {x: 2.000000, y: 2.500000}
+    {}
   Pass: !<reference> 3f318b72-ccbb-4207-a74a-654b66090575

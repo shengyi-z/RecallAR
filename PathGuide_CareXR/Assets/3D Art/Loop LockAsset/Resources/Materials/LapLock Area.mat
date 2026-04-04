@@ -4,6 +4,9 @@
     - !<own> 47275b4a-1f3e-4db3-89a3-a6211cede362
 - !<PassInfo/47275b4a-1f3e-4db3-89a3-a6211cede362>
   CachedProperties:
+    - GlobalOpacity:
+        typeIdx: 1
+        value: 0.000000
     - Port_Center_N007:
         typeIdx: 3
         value: {x: 0.500000, y: 0.500000}
@@ -124,12 +127,30 @@
     - Port_Input0_N076:
         typeIdx: 1
         value: 1.000000
+    - Port_Input1_N001:
+        typeIdx: 1
+        value: 0.300000
+    - Port_Input1_N003:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
     - Port_Input1_N005:
         typeIdx: 5
         value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Input1_N006:
+        typeIdx: 3
+        value: {x: 0.500000, y: 0.500000}
     - Port_Input1_N007:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Input1_N008:
+        typeIdx: 1
+        value: 2.000000
+    - Port_Input1_N011:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input1_N013:
+        typeIdx: 1
+        value: 0.020000
     - Port_Input1_N015:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -157,6 +178,9 @@
     - Port_Input1_N078:
         typeIdx: 5
         value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Input2_N003:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Input2_N007:
         typeIdx: 5
         value: {x: -1.000000, y: 0.000000, z: 0.000000, w: 0.000000}
@@ -190,7 +214,19 @@
     - Port_Position0_N010:
         typeIdx: 1
         value: 0.000000
+    - Port_Position1_N000:
+        typeIdx: 1
+        value: 0.020000
+    - Port_Position1_N010:
+        typeIdx: 1
+        value: 0.020000
+    - Port_Position2_N000:
+        typeIdx: 1
+        value: 0.650000
     - Port_Position2_N010:
+        typeIdx: 1
+        value: 0.650000
+    - Port_Position3_N000:
         typeIdx: 1
         value: 0.650000
     - Port_Position3_N010:
@@ -304,24 +340,54 @@
     - Port_Scale_N104:
         typeIdx: 3
         value: {x: 1.000000, y: 1.000000}
+    - Port_Value0_N000:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_Value0_N010:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_Value1_N000:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Value1_N010:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Value1_N014:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Value2_N000:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Value2_N010:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Value2_N014:
         typeIdx: 1
         value: 0.000000
+    - Port_Value3_N000:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Value3_N001:
         typeIdx: 1
         value: 0.000000
+    - Port_Value3_N010:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
     - Port_Value3_N014:
         typeIdx: 1
         value: 0.000000
     - Port_Value3_N098:
         typeIdx: 1
         value: 0.000000
+    - Port_Value4_N000:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Value4_N001:
         typeIdx: 1
         value: 0.000000
+    - Port_Value4_N010:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
     - Port_Value4_N014:
         typeIdx: 1
         value: 0.000000
@@ -337,9 +403,21 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - PreviewNodeID:
+        typeIdx: 0
+        value: 0
     - Tweak_N105:
         typeIdx: 5
         value: {x: 0.215686, y: 0.709804, z: 1.000000, w: 1.000000}
+    - Tweak_N12:
+        typeIdx: 1
+        value: 0.050000
+    - Tweak_N15:
+        typeIdx: 5
+        value: {x: 0.363577, y: 0.807874, z: 0.991897, w: 1.000000}
     - Tweak_N16:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -366,82 +444,5 @@
     []
   BlendMode: PremultipliedAlphaAuto
   Properties:
-    GlobalOpacity:
-      typeIdx: 1
-      value: 0.000000
-    Port_Input1_N001:
-      typeIdx: 1
-      value: 0.300000
-    Port_Input1_N003:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-    Port_Input1_N006:
-      typeIdx: 3
-      value: {x: 0.500000, y: 0.500000}
-    Port_Input1_N008:
-      typeIdx: 1
-      value: 2.000000
-    Port_Input1_N011:
-      typeIdx: 1
-      value: 0.000000
-    Port_Input1_N013:
-      typeIdx: 1
-      value: 0.020000
-    Port_Input2_N003:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Position1_N000:
-      typeIdx: 1
-      value: 0.020000
-    Port_Position1_N010:
-      typeIdx: 1
-      value: 0.020000
-    Port_Position2_N000:
-      typeIdx: 1
-      value: 0.650000
-    Port_Position3_N000:
-      typeIdx: 1
-      value: 0.650000
-    Port_Value0_N000:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-    Port_Value0_N010:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-    Port_Value1_N000:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Value1_N010:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Value2_N000:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Value2_N010:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Value3_N000:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Value3_N010:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-    Port_Value4_N000:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Value4_N010:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    PreviewNodeID:
-      typeIdx: 0
-      value: 0
-    Tweak_N12:
-      typeIdx: 1
-      value: 0.050000
-    Tweak_N15:
-      typeIdx: 5
-      value: {x: 0.363577, y: 0.807874, z: 0.991897, w: 1.000000}
+    {}
   Pass: !<reference> b9befc6d-8b27-4828-b443-c0a5a1ffeaa5

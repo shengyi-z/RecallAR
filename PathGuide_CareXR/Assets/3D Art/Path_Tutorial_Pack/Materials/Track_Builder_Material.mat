@@ -4,6 +4,12 @@
     - !<own> dd44d82c-0fdf-44ef-bd73-5bb81bb13f56
 - !<PassInfo/dd44d82c-0fdf-44ef-bd73-5bb81bb13f56>
   CachedProperties:
+    - Port_Center_N014:
+        typeIdx: 3
+        value: {x: 0.500000, y: 0.500000}
+    - Port_Center_N030:
+        typeIdx: 3
+        value: {x: 0.500000, y: 0.500000}
     - Port_Center_N065:
         typeIdx: 3
         value: {x: 0.000000, y: 1.000000}
@@ -22,6 +28,9 @@
     - Port_CoordsIn_N030:
         typeIdx: 3
         value: {x: 0.000000, y: 0.000000}
+    - Port_Default_N013:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
     - Port_Depth_N004:
         typeIdx: 1
         value: 1.000000
@@ -52,6 +61,21 @@
     - Port_Import_N015:
         typeIdx: 3
         value: {x: 0.000000, y: 1.000000}
+    - Port_Import_N059:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_Import_N060:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Import_N063:
+        typeIdx: 3
+        value: {x: 0.000000, y: 500.000000}
+    - Port_Import_N066:
+        typeIdx: 3
+        value: {x: 0.000000, y: 1.000000}
+    - Port_Import_N068:
+        typeIdx: 3
+        value: {x: 0.000000, y: -0.500000}
     - Port_Input0_N000:
         typeIdx: 5
         value: {x: 0.637095, y: 0.637095, z: 0.637095, w: 0.000000}
@@ -109,6 +133,9 @@
     - Port_Input0_N035:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Input0_N086:
+        typeIdx: 1
+        value: 0.000000
     - Port_Input1_N000:
         typeIdx: 1
         value: 0.662013
@@ -151,9 +178,18 @@
     - Port_Input1_N035:
         typeIdx: 5
         value: {x: 0.100000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_Input1_N083:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input1_N086:
+        typeIdx: 1
+        value: 1.000000
     - Port_Input2_N000:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.500008}
+    - Port_Input2_N002:
+        typeIdx: 5
+        value: {x: 0.523796, y: 0.523796, z: 0.523796, w: 1.000000}
     - Port_Input2_N008:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 0.000000}
@@ -169,6 +205,9 @@
     - Port_Input2_N029:
         typeIdx: 5
         value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+    - Port_Input2_N083:
+        typeIdx: 1
+        value: 1.000000
     - Port_Input_N011:
         typeIdx: 5
         value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
@@ -238,6 +277,12 @@
     - Port_RayOrigin_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Scale_N014:
+        typeIdx: 3
+        value: {x: 1.000000, y: 120.000000}
+    - Port_Scale_N030:
+        typeIdx: 3
+        value: {x: 1.000000, y: 65.000000}
     - Port_Speed_N007:
         typeIdx: 1
         value: 2.000000
@@ -346,18 +391,42 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - Tweak_N1:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Tweak_N12:
         typeIdx: 0
         value: 0
     - Tweak_N16:
         typeIdx: 1
         value: 1.000000
+    - Tweak_N19:
+        typeIdx: 9
+        value:
+          id: c7912b5f-93b6-4825-ba7d-672829798f65
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - Tweak_N19BorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Tweak_N19Dims:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N19Transform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
     - Tweak_N19UvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -367,12 +436,30 @@
     - Tweak_N23:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N25:
+        typeIdx: 9
+        value:
+          id: 8f9e72f8-85e5-46c8-9530-a34fe8766ef2
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: ClampToBorderColor
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - Tweak_N25BorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Tweak_N25Dims:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N25Transform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
     - Tweak_N25UvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -385,12 +472,21 @@
     - offser:
         typeIdx: 1
         value: 1.000000
+    - offset:
+        typeIdx: 1
+        value: 0.000000
+    - opacitySwitch:
+        typeIdx: 1
+        value: 0.000000
     - overrideTimeElapsed:
         typeIdx: 1
         value: 0.000000
     - overrideTimeEnabled:
         typeIdx: 0
         value: 0
+    - trackSwitch:
+        typeIdx: 0
+        value: 1
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -405,100 +501,5 @@
     []
   BlendMode: PremultipliedAlphaAuto
   Properties:
-    Port_Center_N014:
-      typeIdx: 3
-      value: {x: 0.500000, y: 0.500000}
-    Port_Center_N030:
-      typeIdx: 3
-      value: {x: 0.500000, y: 0.500000}
-    Port_Default_N013:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-    Port_Import_N059:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
-    Port_Import_N060:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Port_Import_N063:
-      typeIdx: 3
-      value: {x: 0.000000, y: 500.000000}
-    Port_Import_N066:
-      typeIdx: 3
-      value: {x: 0.000000, y: 1.000000}
-    Port_Import_N068:
-      typeIdx: 3
-      value: {x: 0.000000, y: -0.500000}
-    Port_Input0_N086:
-      typeIdx: 1
-      value: 0.000000
-    Port_Input1_N083:
-      typeIdx: 1
-      value: 0.000000
-    Port_Input1_N086:
-      typeIdx: 1
-      value: 1.000000
-    Port_Input2_N002:
-      typeIdx: 5
-      value: {x: 0.523796, y: 0.523796, z: 0.523796, w: 1.000000}
-    Port_Input2_N083:
-      typeIdx: 1
-      value: 1.000000
-    Port_Scale_N014:
-      typeIdx: 3
-      value: {x: 1.000000, y: 120.000000}
-    Port_Scale_N030:
-      typeIdx: 3
-      value: {x: 1.000000, y: 65.000000}
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    Tweak_N1:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    Tweak_N19:
-      typeIdx: 9
-      value:
-        id: c7912b5f-93b6-4825-ba7d-672829798f65
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: Repeat
-          wrapModeV: Repeat
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
-    Tweak_N19Transform:
-      typeIdx: 7
-      value:
-        0: {x: 1.000000, y: 0.000000, z: 0.000000}
-        1: {x: 0.000000, y: 1.000000, z: 0.000000}
-        2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    Tweak_N25:
-      typeIdx: 9
-      value:
-        id: 8f9e72f8-85e5-46c8-9530-a34fe8766ef2
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: ClampToBorderColor
-          wrapModeV: Repeat
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
-    Tweak_N25Transform:
-      typeIdx: 7
-      value:
-        0: {x: 1.000000, y: 0.000000, z: 0.000000}
-        1: {x: 0.000000, y: 1.000000, z: 0.000000}
-        2: {x: 0.000000, y: 0.000000, z: 1.000000}
-    offset:
-      typeIdx: 1
-      value: 0.000000
-    opacitySwitch:
-      typeIdx: 1
-      value: 0.000000
-    trackSwitch:
-      typeIdx: 0
-      value: 1
+    {}
   Pass: !<reference> 59e79018-7fac-42c0-9e81-01fcd7a806fc

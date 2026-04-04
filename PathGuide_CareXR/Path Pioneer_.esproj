@@ -24,7 +24,7 @@ metaInfo:
     - Web
     - Spectacles
   platformBundlesEnabled: false
-  iconHash: d3f856d48d565a015f271e4e6ece0bae
+  iconHash: ""
   videoPreviewHash: ""
   fromTemplateName: Path Pioneer
   fromTemplateUrl: Lens Studio 5.15.4.26022322

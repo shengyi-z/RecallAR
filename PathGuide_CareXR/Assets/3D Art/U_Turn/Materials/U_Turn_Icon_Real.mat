@@ -109,6 +109,21 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - Tweak_N0:
+        typeIdx: 9
+        value:
+          id: 1af52b91-52b2-45e0-b4da-96d70feea9db
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - Tweak_N0BorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -138,19 +153,5 @@
     []
   BlendMode: PremultipliedAlphaAuto
   Properties:
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    Tweak_N0:
-      typeIdx: 9
-      value:
-        id: 1af52b91-52b2-45e0-b4da-96d70feea9db
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: Repeat
-          wrapModeV: Repeat
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
+    {}
   Pass: !<reference> 18560d73-055a-4d3f-84ae-4be753ceb0e8

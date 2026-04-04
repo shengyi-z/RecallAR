@@ -55,6 +55,21 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - Tweak_N3:
+        typeIdx: 9
+        value:
+          id: 51567b10-92f3-4ea0-a519-4ae4a5690ee2
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
     - Tweak_N3BorderColor:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
@@ -70,6 +85,9 @@
     - Tweak_N3UvMinMax:
         typeIdx: 5
         value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Tweak_N5:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.565408, z: 1.000000, w: 1.000000}
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -84,22 +102,5 @@
     []
   BlendMode: PremultipliedAlphaAuto
   Properties:
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    Tweak_N3:
-      typeIdx: 9
-      value:
-        id: 51567b10-92f3-4ea0-a519-4ae4a5690ee2
-        sampler:
-          filteringMode: Trilinear
-          wrapModeU: Repeat
-          wrapModeV: Repeat
-          wrapModeW: Repeat
-          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
-          mipmaps: false
-        type: Texture2D
-    Tweak_N5:
-      typeIdx: 5
-      value: {x: 0.000000, y: 0.565408, z: 1.000000, w: 1.000000}
+    {}
   Pass: !<reference> c12cd1c6-31f3-4bd5-a3fe-5df5a34db035

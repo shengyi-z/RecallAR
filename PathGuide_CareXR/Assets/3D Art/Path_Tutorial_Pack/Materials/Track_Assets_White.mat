@@ -4,6 +4,12 @@
     - !<own> e9b2d187-3d54-49a9-94f2-b1e248834a04
 - !<PassInfo/e9b2d187-3d54-49a9-94f2-b1e248834a04>
   CachedProperties:
+    - Port_Default_N204:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Default_N369:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - Port_Depth_N004:
         typeIdx: 1
         value: 1.000000
@@ -52,6 +58,12 @@
     - Port_WorldTangent_N004:
         typeIdx: 4
         value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
     - overrideTimeDelta:
         typeIdx: 1
         value: 0.000000
@@ -78,16 +90,5 @@
     - NODE_69_DROPLIST_ITEM 0
   BlendMode: Disabled
   Properties:
-    Port_Default_N204:
-      typeIdx: 1
-      value: 1.000000
-    Port_Default_N369:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    baseColor:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    {}
   Pass: !<reference> dbff6e30-c07b-4391-977b-e3ff683beb02
